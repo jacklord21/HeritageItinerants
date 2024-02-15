@@ -1,27 +1,37 @@
-import Link from "next/link";
-import SearchBar from "@/components/searchbar/searchbar";
-import Button from "@/components/button/button";
 import React from "react";
+import './footer.css'
 
 
 export default function Footer() {
     return (
-        <div style={{gap: "20px", justifyContent: "center", display: "flex", flexDirection: "row", position: "fixed", bottom: 40, backgroundColor: "red", left: 0, right: 0}}>
-            <div style={{display: "flex", flexDirection: "row", gap: "30px", paddingTop: 5, paddingBottom: 5,}}>
+        <div className="mainFooterContainer">
+            <div className="footerLeftPartContainer">
                 <div>
                     <text className="font-mont font-bold uppercase">Filtra per</text>
                 </div>
-                <div style={{display: "flex", flexDirection: "row",gap: "15px"}}>
-                    <div className="font-roboto font-regular">Collaborativo</div>
-                    <div className="font-roboto font-regular">Data di creazione</div>
-                    <div className="font-roboto font-regular">Modalità di fruizione</div>
-                    <div className="font-roboto font-regular">Materiale Disponibile</div>
-                    <div className="font-roboto font-regular">Topic</div>
+                <div className="footerLeftPartContentContainer">
+                    <div className="font-roboto font-regular text-voice">Collaborativo</div>
+                    <div className="font-roboto font-regular text-voice">Data di creazione</div>
+                    <div className="font-roboto font-regular text-voice">Modalità di fruizione</div>
+                    <div className="font-roboto font-regular text-voice">Materiale Disponibile</div>
+                    <div className="font-roboto font-regular text-voice">Topic</div>
                 </div>
             </div>
-            <div className="h-auto" style={{borderLeft: "solid #000000"}}/>
-            <div style={{ paddingTop: 5, paddingBottom: 5,}}>
-                <text className="font-mont font-bold uppercase">Layout</text>
+
+            <div className="verticalBar h-auto"/>
+
+            <div className="footerLeftPartContainer footerRightPartContainer">
+                <div>
+                    <text className="font-mont font-bold uppercase">Layout</text>
+                </div>
+                <div className="footerRightPartContentContainer">
+                    <button>
+                        <img src="/images/ringIcon.svg"/>
+                    </button>
+                    <button>
+                        <img src="/images/gridIcon.svg"/>
+                    </button>
+                </div>
             </div>
         </div>
 

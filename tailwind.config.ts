@@ -21,6 +21,7 @@ const config: Config = {
         '100': '100px',
         '70': '70px',
         '40': '40px',
+        '16': '16px',
         'title': '22px',
         'voice': '15px',
       },
