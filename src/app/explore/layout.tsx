@@ -18,7 +18,7 @@ export default function ExploreLayout( {children}:{children: React.ReactNode} )
         <html lang="it">
             <body className="bg-white">
                 <Header/>
-                {children}
+                        {children}
                 <Footer/>
             </body>
         </html>
