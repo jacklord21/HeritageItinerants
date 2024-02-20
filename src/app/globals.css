@@ -20,6 +20,7 @@
 body {
   //color: rgb(var(--foreground-rgb));
   background-color: white;
+  position: relative;
  /* background: linear-gradient(
       to top,
       transparent,

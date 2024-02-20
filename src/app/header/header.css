@@ -1,12 +1,16 @@
 .mainContainer {
-  /*  background-color: green;*/
+    background-color: white;
     align-items: center;
     display: flex;
-    height: 100%;
+    height: auto;
     padding-top: 21px;
     padding-left: 20px;
     padding-right: 20px;
+    top: 0;
+    left: 0;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
 }
 
 .leftContainer {
@@ -26,6 +30,7 @@
 
 .rightContainer {
     align-items: center;
+    background-color: red;
     display: flex;
     flex-direction: row;
     margin-left: auto;

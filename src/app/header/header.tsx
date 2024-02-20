@@ -2,6 +2,7 @@ import React from "react";
 import './header.css'
 import Link from "next/link"
 import SearchBar from "@/components/searchbar/searchbar";
+import {redirect} from "next/navigation";
 
 
 export default function Header() {
@@ -11,7 +12,7 @@ export default function Header() {
                 <p className="font-mont font-bold text-title text-black"><Link href="/">HERITAGE ITINERANTS</Link></p>
                 <div className="leftContainerLinks">
                     <p className="font-roboto font-regular text-voice text-black">Progetti</p>
-                    <p className="font-roboto font-regular text-voice text-black">Contribuisci al progetto</p>
+                    <p className="font-roboto font-regular text-voice text-black"><Link href="../propose">Contribuisci al progetto</Link></p>
                     <p className="font-roboto font-regular text-voice text-black"><Link href="../about"> About Us </Link></p>
                 </div>
             </div>

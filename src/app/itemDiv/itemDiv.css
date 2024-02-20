@@ -1,0 +1,21 @@
+.divItem {
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.divItem .image {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: black;
+    object-fit: cover;
+}
+
+.divItem .text {
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+    color: black;
+}

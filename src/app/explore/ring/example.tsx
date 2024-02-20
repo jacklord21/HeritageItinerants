@@ -4,10 +4,15 @@ import React, { Component } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { uuid } from 'uuidv4';
 import { config } from "react-spring";
-import dynamic from "next/dynamic";
+import ItemDiv from "@/app/itemDiv/itemDiv";
+import Extract from "@/app/dataExtractor";
+import Link from "next/link";
 
 
 export default class Example extends Component {
+
+    data = Extract();
+
     state = {
         goToSlide: 0,
         offsetRadius: 6,
@@ -20,16 +25,31 @@ export default class Example extends Component {
         maxGoToSlide: 7,
     };
 
+
+    slides = Object.entries(this.data.projects).map(([key, project]: [string, any]) => ({
+        key: uuid(),
+        content: (
+            <Link href={{ pathname: '/explore/detail', query: {
+                        project: JSON.stringify(project)
+                    }
+                }}
+            >
+                <ItemDiv
+                    width={330}
+                    height={186}
+                    textActive={true}
+                    imageUrl={project.mainImagePath}
+                    projectName={project.name}
+                />
+            </Link>
+        ),
+    }));
+/*
     slides = [
         {
             key: uuid(),
             content:
-                <div  style={{ display: "flex", flexDirection: 'column', backgroundColor: 'red'}}>
-                <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                1
-                <text>Text of the main</text>
-            </div>
-                    </div>
+            <ItemDiv imageUrl={"/images/lente.svg"} projectName={"DigitalGiza"}/>
         },
         {
             key: uuid(),
@@ -74,6 +94,7 @@ export default class Example extends Component {
             </div>
         },
     ];
+*/
 
     handleMouseDown = (event: any) => {
         this.setState({
@@ -115,7 +136,11 @@ export default class Example extends Component {
 
     render() {
         return (
-            <div style={{ width: "90%", height: "500px", margin: "0 auto", backgroundColor: 'green' }}
+            <div style={{
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)", justifyContent: "center", alignItems: "center", width: "90%", height: "fit-content", margin: "auto"}}
                  onWheel={this.handleWheel}
               /*   onMouseDown={this.handleMouseDown}
                  onMouseMove={this.handleMouseMove}

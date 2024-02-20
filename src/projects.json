@@ -1,0 +1,196 @@
+{
+  "projects": {
+    "project1": {
+      "name": "Project1 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ]
+    },
+    "project2": {
+      "name": "Project2 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project3": {
+      "name": "Project3 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project4": {
+      "name": "Project4 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project5": {
+      "name": "Project5 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project6": {
+      "name": "Project6 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project7": {
+      "name": "Project7 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project8": {
+      "name": "Project8 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project9": {
+      "name": "Project9 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    },
+    "project10": {
+      "name": "Project10 name",
+      "desc": "Description of the project1.",
+      "mainData": {
+        "author": "Author of project1.",
+        "date": "Date of project1.",
+        "webAddress": "Web address of project1."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "/images/image1.jpg"
+        },
+        {
+          "imagePath": "/images/image2.jpg"
+        }
+      ]
+    }
+  }
+}
