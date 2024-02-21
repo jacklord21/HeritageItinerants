@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
+import Footer from "@/app/footer/page";
 
 export default function Grid() {
     const items = [
@@ -18,12 +19,11 @@ export default function Grid() {
     };
 
     return (
-        <AliceCarousel
-            items={items}
-            responsive={responsive}
-            autoPlay
-            autoPlayInterval={2000}
-            infinite
-        />
+        <div>
+            <Footer
+                gridClickEnabled={false}
+                ringClickEnabled={true}
+            />
+        </div>
     );
 }

@@ -1,12 +1,14 @@
 "use client";
 
-import React, { Component } from "react";
+import React, {Component, useEffect} from "react";
 import Carousel from "react-spring-3d-carousel";
 import { uuid } from 'uuidv4';
 import { config } from "react-spring";
 import ItemDiv from "@/app/itemDiv/itemDiv";
-import Extract from "@/app/dataExtractor";
 import Link from "next/link";
+import extractorInstance from "@/app/dataExtractor";
+import Extract from "@/app/dataExtractor";
+
 
 
 export default class Example extends Component {
@@ -29,8 +31,8 @@ export default class Example extends Component {
     slides = Object.entries(this.data.projects).map(([key, project]: [string, any]) => ({
         key: uuid(),
         content: (
-            <Link href={{ pathname: '/explore/detail', query: {
-                        project: JSON.stringify(project)
+            <Link href={{ pathname: '/explore/project/detail', query: {
+                        project: encodeURIComponent(JSON.stringify(project))
                     }
                 }}
             >
@@ -44,57 +46,6 @@ export default class Example extends Component {
             </Link>
         ),
     }));
-/*
-    slides = [
-        {
-            key: uuid(),
-            content:
-            <ItemDiv imageUrl={"/images/lente.svg"} projectName={"DigitalGiza"}/>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                <img src={'/images/lente.svg'}/>
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                3
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                4
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                5
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                6
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                7
-            </div>
-        },
-        {
-            key: uuid(),
-            content: <div style={{ background: "#000", width: '330px', height: '186px', color: 'white'}}>
-                8
-            </div>
-        },
-    ];
-*/
 
     handleMouseDown = (event: any) => {
         this.setState({

@@ -1,26 +1,13 @@
-"use client";
-
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './detail.css';
-import {useRouter} from 'next/navigation';
-import ItemDiv from "@/app/itemDiv/itemDiv";
+import Footer from "@/app/footer/page";
 
-// @ts-ignore
-export default function DetailPage ({ searchParams }) {
-    const data = JSON.parse(searchParams.project);
-/*
-    useEffect(() => {
-        const { project: projectParam } = searchParams;
-
-        if (projectParam) {
-            const projectData = JSON.parse(projectParam);
-            console.log('Project Datayy:', projectData);
-        }
-    }, [searchParams]);*/
+export default function DetailPage ({ searchParams }: { searchParams: any }) {
+    const data = JSON.parse(decodeURIComponent(searchParams.project));
 
 
     return (
-        <div className="App" style={{ overflow: "hidden" }}>
+        <div className="App">
             <div className="mainDetailContainer">
                 <div className="nomeProgetto font-mont font-semibold text-70 text-black">
                     <p>{data.name}</p>
@@ -39,7 +26,17 @@ export default function DetailPage ({ searchParams }) {
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.author}</div>
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.date}</div>
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.webAddress}</div>
-                                    <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">fruizione</div>
+                                    <div className="fruition">
+                                        {data.fruition.map((mod: any, index: number) => (
+                                            <div key={index} className="API">
+                                                <div className="rectangle">
+                                                    <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">
+                                                        {mod}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>

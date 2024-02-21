@@ -1,9 +1,7 @@
 .content {
     display: flex;
-    background-color: red;
     flex-direction: column;
     gap: 45px;
-    margin-top: 80px;
     padding: 80px 20px 28px;
     width: 100%;
     height: fit-content;
@@ -125,8 +123,7 @@ input[type="date"]:-ms-input-placeholder {
 }
 
 input[type="date"]::placeholder {
-    /* Standard CSS */
-    color: #999; /* Colore desiderato */
+    color: #999;
 }
 
 .content .imgContBig {

@@ -134,6 +134,7 @@
 }
 
 .progetti .projDesc {
+    text-align: left;
     letter-spacing: 0;
     line-height: 28px;
     width: 100%;
@@ -215,4 +216,39 @@
     bottom: 0;
     letter-spacing: 0;
     line-height: 28px;
+}
+
+.fruition {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+
+.API {
+     align-items: center;
+     height: 100%;
+     justify-content: center;
+     width: fit-content;
+ }
+
+.API .rectangle {
+    align-self: stretch;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-items: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.API .text-wrapper {
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    white-space: nowrap;
 }

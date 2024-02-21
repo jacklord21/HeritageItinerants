@@ -30,7 +30,6 @@
 
 .rightContainer {
     align-items: center;
-    background-color: red;
     display: flex;
     flex-direction: row;
     margin-left: auto;
@@ -38,6 +37,7 @@
     text-align: right;
     min-height: 18px;
     height: 30px;
+    width: fit-content;
 }
 
 .rightContainer > button {

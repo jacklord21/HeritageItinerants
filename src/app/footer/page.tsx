@@ -1,8 +1,16 @@
 import React from "react";
 import './footer.css'
+import Link from "next/link";
 
 
-export default function Footer() {
+interface FooterProps {
+    ringClickEnabled: boolean;
+    gridClickEnabled: boolean;
+}
+
+
+
+const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) => {
     return (
         <div className="mainFooterContainer">
             <div className="footerLeftPartContainer">
@@ -25,38 +33,15 @@ export default function Footer() {
                     <text className="font-mont font-bold uppercase">Layout</text>
                 </div>
                 <div className="footerRightPartContentContainer">
-                    <button>
-                        <img src="/images/ringIcon.svg"/>
-                    </button>
-                    <button>
-                        <img src="/images/gridIcon.svg"/>
-                    </button>
+                    {ringClickEnabled ? <Link href="../explore/ring"> <img src="/images/ringIcon.svg"/> </Link> : <img src="/images/ringIcon.svg"/>}
+                    {gridClickEnabled ? <Link href="../explore/grid"> <img src="/images/gridIcon.svg"/> </Link> : <img src="/images/gridIcon.svg"/>}
                 </div>
             </div>
         </div>
-
-
-        /*
-        <div style={{position: "fixed", bottom: 0, left: 0, right: 0}}>
-            <div className="text-black leftContainer">
-                <p className="font-mont font-bold"><Link href="/"> HERITAGE ITINERANTS </Link></p>
-                <p className="font-roboto font-regular">Progetti</p>
-                <p className="font-roboto font-regular">Contribuisci al progetto</p>
-                <p className="font-roboto font-regular"><Link href="../about/"> About Us </Link></p>
-            </div>
-            <div className="rightContainer">
-                <SearchBar/>
-                <Button
-                    //    onClick={() => {}}
-                    backgroundColor="#000000"
-                    borderRadius="5px"
-                    imageUrl={"images/person.svg"}
-                    width={"60px"}
-                />
-            </div>
-        </div>*/
     )
-
-
-
 }
+
+
+
+
+export default Footer;
