@@ -16,7 +16,11 @@ export default function ExploreLayout( {children}:{children: React.ReactNode} )
     return (
         <html lang="it">
             <body className="bg-white">
-                <Header/>
+                <Header
+                    viewSearchBar={false}
+                    progettiEnabled={false}
+                    contribuisciEnabled={true}
+                    aboutEnabled={false}/>
                 {children}
             </body>
         </html>
