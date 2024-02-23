@@ -10,23 +10,23 @@ interface ExtractorComponentProps {
 
 class ExtractorComponent {
 
-    private collYesFilterState = false;
-    private collNoFilterState = false;
-    private fruitionAppFilterState = false;
-    private fruitionWebFilterState = false;
-    private fruitionAPIFilterState = false;
+    public collYesFilterState = false;
+    public collNoFilterState = false;
+    public fruitionAppFilterState = false;
+    public fruitionWebFilterState = false;
+    public fruitionAPIFilterState = false;
 
-    private contPhotoFilterState = false;
-    private contModelsFilterState = false;
-    private contArtFilterState = false;
-    private contRegFilterState = false;
-    private contTextFilterState = false;
+    public contPhotoFilterState = false;
+    public contModelsFilterState = false;
+    public contArtFilterState = false;
+    public contRegFilterState = false;
+    public contTextFilterState = false;
 
-    private argArchFilterState = false;
-    private argArtFilterState = false;
-    private argLettFilterState = false;
-    private argReligFilterState = false;
-    private argStoryFilterState = false;
+    public argArchFilterState = false;
+    public argArtFilterState = false;
+    public argLettFilterState = false;
+    public argReligFilterState = false;
+    public argStoryFilterState = false;
 
     private yearsFilterState = [-1, -1];
 

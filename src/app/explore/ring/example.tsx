@@ -1,43 +1,44 @@
-"use client";
-
-import React, {Component, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { uuid } from 'uuidv4';
-import { config } from "react-spring";
 import ItemDiv from "@/app/itemDiv/itemDiv";
 import Link from "next/link";
 import ExtractorComponent from "@/app/dataExtractor";
+import eventEmitter from "@/Emitter";
+
+const Example = () => {
+    const [goToSlide, setGoToSlide] = useState(0);
+    const [offsetRadius, setOffsetRadius] = useState(3);
+    const [showNavigation, setShowNavigation] = useState(true);
+    const [isDragging, setIsDragging] = useState(false);
+    const [dragStartX, setDragStartX] = useState(0);
+    const [sensitivity] = useState(0.005);
+    const [minGoToSlide] = useState(0);
+    const [maxGoToSlide] = useState(7);
+    const [list, setList] = useState(ExtractorComponent.getInstance().getDati().projects);
+
+    useEffect(() => {
+        const handleListaCambiata = (nuovaLista:  {projects: {}}) => {
+            setList(nuovaLista);
+        };
+
+        eventEmitter.on('listaCambiata', handleListaCambiata);
+
+        return () => {
+            eventEmitter.off('listaCambiata', handleListaCambiata);
+        };
+    }, []);
 
 
-
-export default class Example extends Component {
-
-
-
-    data = ExtractorComponent.getInstance().getDati();
-
-    state = {
-        goToSlide: 0,
-        offsetRadius: 3,
-        showNavigation: true,
-        config: config.gentle,
-        isDragging: false,
-        dragStartX: 0,
-        sensitivity: 0.005, // Regola la sensibilità dello scorrimento del mouse
-        minGoToSlide: 0,
-        maxGoToSlide: 7,
-    };
-
-
-
-    slides = Object.entries(this.data.projects).map(([key, project]: [string, any]) => ({
+    const slides = Object.entries(list).map(([key, project]: [string, any]) => ({
         key: uuid(),
         content: (
-            <Link href={{ pathname: '/explore/project/detail', query: {
-                        project: encodeURIComponent(JSON.stringify(project))
-                    }
-                }}
-            >
+            <Link href={{
+                pathname: '/explore/project/detail',
+                query: {
+                    project: encodeURIComponent(JSON.stringify(project))
+                }
+            }}>
                 <ItemDiv
                     width={"330px"}
                     height={"fit-content"}
@@ -49,61 +50,78 @@ export default class Example extends Component {
         ),
     }));
 
-
-
-    handleMouseDown = (event: any) => {
-        this.setState({
-            isDragging: true,
-            dragStartX: event.clientX,
-        });
+    const handleMouseDown = (event: any) => {
+        setIsDragging(true);
+        setDragStartX(event.clientX);
     };
 
-    handleMouseMove = (event: any) => {
-        if (this.state.isDragging) {
-            const deltaX = event.clientX - this.state.dragStartX;
-            const slideDelta = deltaX * this.state.sensitivity;
+    const handleMouseMove = (event: any) => {
+        if (isDragging) {
+            const deltaX = event.clientX - dragStartX;
+            const slideDelta = deltaX * sensitivity;
 
-            this.setState((prevState: any) => ({
-                goToSlide: Math.max(
-                    Math.min(prevState.goToSlide - slideDelta, prevState.maxGoToSlide),
-                    prevState.minGoToSlide
-                ),
-                dragStartX: event.clientX,
-            }));
+            setGoToSlide((prevGoToSlide) => Math.max(
+                Math.min(prevGoToSlide - slideDelta, maxGoToSlide),
+                minGoToSlide
+            ));
+
+            setDragStartX(event.clientX);
         }
     };
 
-    handleMouseUp = () => {
-        this.setState({
-            isDragging: false,
-        });
+    const handleMouseUp = () => {
+        setIsDragging(false);
     };
 
-    handleWheel = (event: any) => {
+    const handleWheel = (event: any) => {
         if (event.deltaY < 0) {
-            this.setState({ goToSlide: this.state.goToSlide - 1 });
+            setGoToSlide((prevGoToSlide) => prevGoToSlide + 1);
         } else {
-            this.setState({ goToSlide: this.state.goToSlide + 1 });
+            setGoToSlide((prevGoToSlide) => prevGoToSlide - 1);
         }
     };
 
+    useEffect(() => {
+        const handleMouseMoveBound = handleMouseMove;
+        const handleMouseUpBound = handleMouseUp;
 
+        if (isDragging) {
+            document.addEventListener("mousemove", handleMouseMoveBound);
+            document.addEventListener("mouseup", handleMouseUpBound);
+        } else {
+            document.removeEventListener("mousemove", handleMouseMoveBound);
+            document.removeEventListener("mouseup", handleMouseUpBound);
+        }
 
-    render() {
-        return (
-            <div style={{zIndex: "0", backgroundColor: "lightcoral", justifyContent: "center", alignItems: "center", width: "90%", height: "350px", margin: "auto", overflow: "hidden"}}
-                 onWheel={this.handleWheel}
-              /*   onMouseDown={this.handleMouseDown}
-                 onMouseMove={this.handleMouseMove}
-                 onMouseUp={this.handleMouseUp}*/
-            >
-                <Carousel
-                    slides={this.slides}
-                    goToSlide={this.state.goToSlide}
-                    offsetRadius={this.state.offsetRadius}
-                    animationConfig={this.state.config}
-                 showNavigation={false}/>
-            </div>
-        );
-    }
-}
+        return () => {
+            document.removeEventListener("mousemove", handleMouseMoveBound);
+            document.removeEventListener("mouseup", handleMouseUpBound);
+        };
+    }, [handleMouseMove, isDragging]);
+
+    return (
+        <div
+            style={{
+                zIndex: "0",
+                backgroundColor: "lightcoral",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "90%",
+                height: "350px",
+                margin: "auto",
+                overflow: "hidden"
+            }}
+            onWheel={handleWheel}
+            onMouseDown={handleMouseDown}
+        >
+            <Carousel
+                slides={slides}
+                goToSlide={goToSlide}
+                offsetRadius={offsetRadius}
+                showNavigation={false}
+            />
+        </div>
+    );
+};
+
+export default Example;
