@@ -208,11 +208,29 @@ class ExtractorComponent {
         eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
     }
 
-
-
-
     public getDati = () => {
         return this.jsonDataFiltered;
+    };
+
+    public resetDati = () => {
+        this.jsonDataFiltered.projects = this.jsonData.projects;
+        this.collYesFilterState = false;
+        this.collNoFilterState = false;
+        this.fruitionAppFilterState = false;
+        this.fruitionWebFilterState = false;
+        this.fruitionAPIFilterState = false;
+        this.contPhotoFilterState = false;
+        this.contModelsFilterState = false;
+        this.contArtFilterState = false;
+        this.contRegFilterState = false;
+        this.contTextFilterState = false;
+        this.argArchFilterState = false;
+        this.argArtFilterState = false;
+        this.argLettFilterState = false;
+        this.argReligFilterState = false;
+        this.argStoryFilterState = false;
+        this.yearsFilterState = [-1, -1];
+        eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
     };
 }
 

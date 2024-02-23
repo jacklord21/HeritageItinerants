@@ -108,11 +108,11 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) =>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleCollClick}>Collaborativo</div>
                             <div className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.collYesFilterState} disabled={checkbox2Checked} type="checkbox" onChange={(e) => YesCollaborativeFilter(e)}/>
+                                    <input disabled={checkbox2Checked} type="checkbox" onChange={(e) => YesCollaborativeFilter(e)}/>
                                     <label className="font-roboto font-regular text-voice" >Sì</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.collNoFilterState} disabled={checkbox1Checked} type="checkbox" onChange={(e) => NoCollaborativeFilter(e)}/>
+                                    <input disabled={checkbox1Checked} type="checkbox" onChange={(e) => NoCollaborativeFilter(e)}/>
                                     <label className="font-roboto font-regular text-voice">No</label>
                                 </div>
                             </div>
@@ -134,15 +134,15 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) =>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleFruiClick}>Modalità di fruizione</div>
                             <div className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.fruitionAppFilterState} type="checkbox" onChange={(e) => FruitionFilter(0, e)}/>
+                                    <input type="checkbox" onChange={(e) => FruitionFilter(0, e)}/>
                                     <label className="font-roboto font-regular text-voice">App</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.fruitionWebFilterState} type="checkbox" onChange={(e) => FruitionFilter(1, e)}/>
+                                    <input type="checkbox" onChange={(e) => FruitionFilter(1, e)}/>
                                     <label className="font-roboto font-regular text-voice">Sito web</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.fruitionAPIFilterState} type="checkbox" onChange={(e) => FruitionFilter(2, e)}/>
+                                    <input type="checkbox" onChange={(e) => FruitionFilter(2, e)}/>
                                     <label className="font-roboto font-regular text-voice">API</label>
                                 </div>
                             </div>
@@ -151,23 +151,23 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) =>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleContClick}>Contenuto</div>
                             <div className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.contPhotoFilterState} type="checkbox" onChange={(e) => ContentFilter(0, e)}/>
+                                    <input type="checkbox" onChange={(e) => ContentFilter(0, e)}/>
                                     <label className="font-roboto font-regular text-voice">Fotografie</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.contModelsFilterState} type="checkbox" onChange={(e) => ContentFilter(1, e)}/>
+                                    <input type="checkbox" onChange={(e) => ContentFilter(1, e)}/>
                                     <label className="font-roboto font-regular text-voice">Modelli 3D</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.contArtFilterState} type="checkbox" onChange={(e) => ContentFilter(2, e)}/>
+                                    <input type="checkbox" onChange={(e) => ContentFilter(2, e)}/>
                                     <label className="font-roboto font-regular text-voice">{"Opere d'arte"}</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.contRegFilterState} type="checkbox" onChange={(e) => ContentFilter(3, e)}/>
+                                    <input type="checkbox" onChange={(e) => ContentFilter(3, e)}/>
                                     <label className="font-roboto font-regular text-voice">Registrazioni multimediali</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.contTextFilterState} type="checkbox" onChange={(e) => ContentFilter(4, e)}/>
+                                    <input type="checkbox" onChange={(e) => ContentFilter(4, e)}/>
                                     <label className="font-roboto font-regular text-voice">Testi (libri/manoscritti)</label>
                                 </div>
                             </div>
@@ -176,23 +176,23 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) =>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleArgClick}>Argomento</div>
                             <div className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.argArchFilterState} type="checkbox" onChange={(e) => ArgumentFilter(0, e)}/>
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(0, e)}/>
                                     <label className="font-roboto font-regular text-voice">Architettura</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.argArtFilterState} type="checkbox" onChange={(e) => ArgumentFilter(1, e)}/>
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(1, e)}/>
                                     <label className="font-roboto font-regular text-voice">Arte</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.argLettFilterState} type="checkbox" onChange={(e) => ArgumentFilter(2, e)}/>
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(2, e)}/>
                                     <label className="font-roboto font-regular text-voice">Letteratura</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.argReligFilterState} type="checkbox" onChange={(e) => ArgumentFilter(3, e)}/>
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(3, e)}/>
                                     <label className="font-roboto font-regular text-voice">Religione</label>
                                 </div>
                                 <div className="filterMenuItem">
-                                    <input checked={extractor.argStoryFilterState} type="checkbox" onChange={(e) => ArgumentFilter(4, e)}/>
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(4, e)}/>
                                     <label className="font-roboto font-regular text-voice">Storia</label>
                                 </div>
                             </div>
@@ -207,8 +207,8 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) =>
                     <text className="font-mont font-bold uppercase">Layout</text>
                 </div>
                 <div className="footerRightPartContentContainer">
-                    {ringClickEnabled ? <Link href="../explore/ring"> <img src="/images/ringIcon.svg"/> </Link> : <img src="/images/ringIcon.svg"/>}
-                    {gridClickEnabled ? <Link href="../explore/grid"> <img src="/images/gridIcon.svg"/> </Link> : <img src="/images/gridIcon.svg"/>}
+                    {ringClickEnabled ? <Link href="../explore/ring" onClick={() => extractor.resetDati()}> <img src="/images/ringIcon.svg"/> </Link> : <img src="/images/ringIcon.svg"/>}
+                    {gridClickEnabled ? <Link href="../explore/grid" onClick={() => extractor.resetDati()}> <img src="/images/gridIcon.svg"/> </Link> : <img src="/images/gridIcon.svg"/>}
                 </div>
             </div>
         </div>

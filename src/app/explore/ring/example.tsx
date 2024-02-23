@@ -103,7 +103,6 @@ const Example = () => {
         <div
             style={{
                 zIndex: "0",
-                backgroundColor: "lightcoral",
                 justifyContent: "center",
                 alignItems: "center",
                 width: "90%",
@@ -112,7 +111,7 @@ const Example = () => {
                 overflow: "hidden"
             }}
             onWheel={handleWheel}
-            onMouseDown={handleMouseDown}
+       //     onMouseDown={handleMouseDown}
         >
             <Carousel
                 slides={slides}
