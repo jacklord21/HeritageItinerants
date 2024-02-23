@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState } from 'react';
+import React from 'react';
 import './ring.css';
 import Example from "@/app/explore/ring/example";
 import Footer from "@/app/footer/footer";
