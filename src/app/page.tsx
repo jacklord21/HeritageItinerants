@@ -8,7 +8,6 @@ import {LayoutProvider} from "./context";
 import ExtractorComponent from "@/app/dataExtractor";
 
 export default async function App() {
-    const data = new ExtractorComponent({});
     return redirect('explore/ring');
 
 }
