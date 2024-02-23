@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 import '../globals.css'
 import React, {useState} from "react";
 import Header from "@/app/header/header";
-import Footer from "@/app/footer/page";
+import Footer from "@/app/footer/footer";
 
 const inter = Inter({ subsets: ['latin'] })
 

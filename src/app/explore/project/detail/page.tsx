@@ -1,7 +1,7 @@
 import React from 'react';
 import './detail.css';
 import attr from '../../../../projAttr.json';
-import Footer from "@/app/footer/page";
+import Footer from "@/app/footer/footer";
 
 export default function DetailPage ({ searchParams }: { searchParams: any }) {
     const data = JSON.parse(decodeURIComponent(searchParams.project));

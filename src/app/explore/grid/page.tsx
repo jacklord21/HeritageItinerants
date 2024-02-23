@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import Footer from '@/app/footer/page';
+import Footer from '@/app/footer/footer';
 import './grid.css';
 import { uuid } from 'uuidv4';
 import Link from 'next/link';
