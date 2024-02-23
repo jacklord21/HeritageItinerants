@@ -16,6 +16,6 @@
 .divItem .text {
     text-align: center;
     word-wrap: break-word;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     color: black;
 }

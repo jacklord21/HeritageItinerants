@@ -9,10 +9,7 @@ export default function HomePage() {
 
     return (
 
-        <div className="App" style={{ width: "100%",
-            display: "grid",
-            placeItems: "center", /* Centro gli elementi del grid */
-            height: "100vh" }}>
+        <div className="App" >
             <Example />
             <Footer
                 gridClickEnabled={true}

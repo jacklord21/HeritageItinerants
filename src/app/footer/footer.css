@@ -18,10 +18,12 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    position: relative;
     gap: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
 .footerLeftPartContentContainer {
     display: flex;
     flex-direction: row;
@@ -35,7 +37,6 @@
     width: 0.15%;
     padding: 0;
 }
-
 
 .footerRightPartContainer {
     align-items: center;
@@ -57,4 +58,56 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+
+
+.filterOption {
+    position: relative;
+    border-radius: 0 5px 5px 5px;
+    padding: 0 5px 0;
+    user-select: none;
+    width: fit-content;
+}
+.filterOption:hover {
+}
+.menuOpen {
+    background-color: #CCD1D2;
+}
+.menuClose {
+    display: none;
+}
+.filterVoice {
+    cursor: pointer;
+}
+
+
+.filterMenu {
+    background-color: white;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr; /* Una colonna */
+    gap: 5px;
+    border: 1px solid #CCD1D2;
+    border-radius: 5px 5px 0 0;
+}
+
+.filterMenuItem {
+    align-items: center;
+    display: grid; /* Utilizza un layout di griglia */
+    grid-template-columns: min-content auto; /* Una colonna */
+    grid-column-gap: 16px;
+    padding: 4px 24px 4px 16px;
+    height: fit-content;
+}
+
+
+.filterMenuSliderItem {
+    padding: 4px 24px 4px 16px;
+    position: relative;
+    height: fit-content;
+    width: 250px; /* Aggiunto */
+    min-width: 200px; /* Aggiunto */
 }

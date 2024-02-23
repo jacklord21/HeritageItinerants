@@ -1,23 +1,14 @@
-.divItem {
+.gridCompContainer {
+    align-self: center;
     display: grid;
-    background-color: lightcoral;
-    height: 100px;
-}
-
-
-
-.grid-container {
-    padding-top: 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
-    grid-gap: 20px;
-}
-
-.grid-item {
-    width: 100%;
-    height: 100px; /* Regola l'altezza degli elementi secondo le tue esigenze */
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);  /* Cambiato da 4 a 5 */
+    grid-row-gap: 30px;
+    grid-column-gap: 57px;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 250px);
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: initial;
 }

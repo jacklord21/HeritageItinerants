@@ -1,16 +1,15 @@
 .mainContainer {
-    background-color: white;
+    background-color: green;
     align-items: center;
-    display: flex;
-    height: auto;
-    padding-top: 21px;
-    padding-left: 20px;
-    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: fit-content;
+    padding: 21px 20px 0;
     top: 0;
     left: 0;
     width: 100%;
+    box-sizing: border-box;
     position: fixed;
-    z-index: 1000;
 }
 
 .leftContainer {

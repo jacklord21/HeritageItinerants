@@ -1,10 +1,11 @@
 {
   "projects": {
     "project1": {
-      "name": "Project27 name",
+      "id": 1,
+      "name": "Project1 name",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project27.",
+        "author": "Author of project1.",
         "date": "Date of project1.",
         "webAddress": "Web address of project1."
       },
@@ -29,168 +30,1171 @@
           "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
       ],
-      "fruition": ["App", "Sito Web"]
+      "coll": true,
+      "year": 2001,
+      "fruition": [
+        1, 2
+      ],
+      "cont": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2
+      ]
     },
     "project2": {
+      "id": 2,
       "name": "Project2 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project2.",
+        "date": "Date of project2.",
+        "webAddress": "Web address of project2."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2002,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project3": {
+      "id": 3,
       "name": "Project3 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project3.",
+        "date": "Date of project3.",
+        "webAddress": "Web address of project3."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2003,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project4": {
+      "id": 4,
       "name": "Project4 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project4.",
+        "date": "Date of project4.",
+        "webAddress": "Web address of project4."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2004,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project5": {
+      "id": 5,
       "name": "Project5 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project5.",
+        "date": "Date of project5.",
+        "webAddress": "Web address of project5."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2005,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project6": {
+      "id": 6,
       "name": "Project6 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project6.",
+        "date": "Date of project6.",
+        "webAddress": "Web address of project6."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2006,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project7": {
+      "id": 7,
       "name": "Project7 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project7.",
+        "date": "Date of project7.",
+        "webAddress": "Web address of project7."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2007,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project8": {
+      "id": 8,
       "name": "Project8 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project8.",
+        "date": "Date of project8.",
+        "webAddress": "Web address of project8."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2008,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project9": {
+      "id": 9,
       "name": "Project9 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project9.",
+        "date": "Date of project9.",
+        "webAddress": "Web address of project9."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2009,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     "project10": {
+      "id": 10,
       "name": "Project10 name",
-      "desc": "Description of the project1.",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Author of project10.",
+        "date": "Date of project10.",
+        "webAddress": "Web address of project10."
       },
       "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
       "images": [
         {
-          "imagePath": "/images/image1.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         },
         {
-          "imagePath": "/images/image2.jpg"
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
         }
+      ],
+      "coll": true,
+      "year": 2010,
+      "fruition": [
+        0
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2
+      ]
+    },
+    "project11": {
+      "id": 11,
+      "name": "Project11 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project11.",
+        "date": "Date of project11.",
+        "webAddress": "Web address of project11."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2011,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project12": {
+      "id": 12,
+      "name": "Project2 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project12.",
+        "date": "Date of project12.",
+        "webAddress": "Web address of project12."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2012,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project13": {
+      "id": 13,
+      "name": "Project13 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project13.",
+        "date": "Date of project13.",
+        "webAddress": "Web address of project13."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2013,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project14": {
+      "id": 14,
+      "name": "Project14 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project14.",
+        "date": "Date of project14.",
+        "webAddress": "Web address of project14."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2014,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project15": {
+      "id": 15,
+      "name": "Project15 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project15.",
+        "date": "Date of project15.",
+        "webAddress": "Web address of project15."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2015,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project16": {
+      "id": 16,
+      "name": "Project16 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project16.",
+        "date": "Date of project16.",
+        "webAddress": "Web address of project16."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2016,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project17": {
+      "id": 17,
+      "name": "Project17 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project17.",
+        "date": "Date of project17.",
+        "webAddress": "Web address of project17."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2017,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project18": {
+      "id": 18,
+      "name": "Project18 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project18.",
+        "date": "Date of project18.",
+        "webAddress": "Web address of project18."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2018,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project19": {
+      "id": 19,
+      "name": "Project19 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project19.",
+        "date": "Date of project19.",
+        "webAddress": "Web address of project19."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2019,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project20": {
+      "id": 20,
+      "name": "Project20 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project20.",
+        "date": "Date of project20.",
+        "webAddress": "Web address of project20."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": true,
+      "year": 2020,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project21": {
+      "id": 21,
+      "name": "Project21 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project21.",
+        "date": "Date of project21.",
+        "webAddress": "Web address of project21."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": false,
+      "year": 2021,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project22": {
+      "id": 22,
+      "name": "Project22 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project22.",
+        "date": "Date of project22.",
+        "webAddress": "Web address of project22."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": false,
+      "year": 2022,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project23": {
+      "id": 23,
+      "name": "Project23 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project23.",
+        "date": "Date of project23.",
+        "webAddress": "Web address of project23."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": false,
+      "year": 2023,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project24": {
+      "id": 24,
+      "name": "Project24 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project24.",
+        "date": "Date of project24.",
+        "webAddress": "Web address of project24."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": false,
+      "year": 2024,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "project25": {
+      "id": 25,
+      "name": "Project25 name",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "mainData": {
+        "author": "Author of project25.",
+        "date": "Date of project25.",
+        "webAddress": "Web address of project25."
+      },
+      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "images": [
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        },
+        {
+          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+        }
+      ],
+      "coll": false,
+      "year": 2025,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        2,
+        4
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     }
   }

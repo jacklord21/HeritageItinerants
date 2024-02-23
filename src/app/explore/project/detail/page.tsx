@@ -1,5 +1,6 @@
 import React from 'react';
 import './detail.css';
+import attr from '../../../../projAttr.json';
 import Footer from "@/app/footer/page";
 
 export default function DetailPage ({ searchParams }: { searchParams: any }) {
@@ -7,7 +8,6 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
 
 
     return (
-        <div className="App">
             <div className="mainDetailContainer">
                 <div className="nomeProgetto font-mont font-semibold text-70 text-black">
                     <p>{data.name}</p>
@@ -31,7 +31,7 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                                             <div key={index} className="API">
                                                 <div className="rectangle">
                                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">
-                                                        {mod}
+                                                        {attr.fruition[mod]}
                                                     </div>
                                                 </div>
                                             </div>
@@ -62,6 +62,5 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };

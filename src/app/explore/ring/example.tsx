@@ -6,18 +6,19 @@ import { uuid } from 'uuidv4';
 import { config } from "react-spring";
 import ItemDiv from "@/app/itemDiv/itemDiv";
 import Link from "next/link";
-import extractorInstance from "@/app/dataExtractor";
-import Extract from "@/app/dataExtractor";
+import ExtractorComponent from "@/app/dataExtractor";
 
 
 
 export default class Example extends Component {
 
-    data = Extract();
+
+
+    data = ExtractorComponent.getInstance().getDati();
 
     state = {
         goToSlide: 0,
-        offsetRadius: 6,
+        offsetRadius: 3,
         showNavigation: true,
         config: config.gentle,
         isDragging: false,
@@ -26,6 +27,7 @@ export default class Example extends Component {
         minGoToSlide: 0,
         maxGoToSlide: 7,
     };
+
 
 
     slides = Object.entries(this.data.projects).map(([key, project]: [string, any]) => ({
@@ -37,8 +39,8 @@ export default class Example extends Component {
                 }}
             >
                 <ItemDiv
-                    width={330}
-                    height={186}
+                    width={"330px"}
+                    height={"fit-content"}
                     textActive={true}
                     imageUrl={project.mainImagePath}
                     projectName={project.name}
@@ -46,6 +48,8 @@ export default class Example extends Component {
             </Link>
         ),
     }));
+
+
 
     handleMouseDown = (event: any) => {
         this.setState({
@@ -87,11 +91,7 @@ export default class Example extends Component {
 
     render() {
         return (
-            <div style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)", justifyContent: "center", alignItems: "center", width: "90%", height: "fit-content", margin: "auto"}}
+            <div style={{zIndex: "0", backgroundColor: "lightcoral", justifyContent: "center", alignItems: "center", width: "90%", height: "350px", margin: "auto", overflow: "hidden"}}
                  onWheel={this.handleWheel}
               /*   onMouseDown={this.handleMouseDown}
                  onMouseMove={this.handleMouseMove}

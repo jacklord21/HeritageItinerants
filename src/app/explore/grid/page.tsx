@@ -1,29 +1,61 @@
 "use client";
-import React from "react";
-import AliceCarousel from "react-alice-carousel";
-import Footer from "@/app/footer/page";
+
+import React, { useEffect, useState } from 'react';
+import Footer from '@/app/footer/page';
+import './grid.css';
+import { uuid } from 'uuidv4';
+import Link from 'next/link';
+import ItemDiv from '@/app/itemDiv/itemDiv';
+import ExtractorComponent from '@/app/dataExtractor';
+import eventEmitter from "@/Emitter";
 
 export default function Grid() {
-    const items = [
-        <div key={1} style={{ backgroundColor: 'lightcoral', height: '100px' }}>1</div>,
-        <div key={2} style={{ backgroundColor: 'lightgreen', height: '100px' }}>2</div>,
-        <div key={3} style={{ backgroundColor: 'lightskyblue', height: '100px' }}>3</div>,
-        <div key={4} style={{ backgroundColor: 'lightgoldenrodyellow', height: '100px' }}>4</div>,
-        // Aggiungi ulteriori elementi
-    ];
+    const [list, setList] = useState(ExtractorComponent.getInstance().getDati().projects);
 
-    const responsive = {
-        0: { items: 1 },
-        600: { items: 2 },
-        1024: { items: 4 }, // Imposta il numero massimo di colonne a 4 su schermi più grandi
-    };
+    useEffect(() => {
+        const handleListaCambiata = (nuovaLista:  {projects: {}}) => {
+            setList(nuovaLista);
+        };
+
+        eventEmitter.on('listaCambiata', handleListaCambiata);
+
+        return () => {
+            eventEmitter.off('listaCambiata', handleListaCambiata);
+        };
+    }, []);
+
+
+    const slides = Object.entries(list).map(([key, project]: [string, any]) => ({
+        key: uuid(),
+        content: (
+            <Link
+                key={key}
+                href={{
+                    pathname: '/explore/project/detail',
+                    query: {
+                        project: encodeURIComponent(JSON.stringify(project))
+                    }
+                }}
+            >
+                <ItemDiv
+                    width={"fit-content"}
+                    height={"fit-content"}
+                    textActive={true}
+                    imageUrl={project.mainImagePath}
+                    projectName={project.name}
+                />
+            </Link>
+        ),
+    }));
 
     return (
-        <div>
-            <Footer
-                gridClickEnabled={false}
-                ringClickEnabled={true}
-            />
+        <div style={{ boxSizing: 'border-box', overflow: 'hidden', width: '100%', height: '100%' }}>
+            <div className="gridCompContainer">
+                {slides.map((item, index) => (
+                    <div key={index}>{item.content}</div>
+                ))}
+            </div>
+            <Footer gridClickEnabled={false} ringClickEnabled={true} />
         </div>
     );
 }

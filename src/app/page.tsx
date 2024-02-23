@@ -5,11 +5,10 @@ import {redirect} from "next/navigation";
 import handler from "../database/databaseExtraction";
 import extractorInstance from "@/app/dataExtractor";
 import {LayoutProvider} from "./context";
+import ExtractorComponent from "@/app/dataExtractor";
 
 export default async function App() {
-    return (
-        <LayoutProvider>
-            {redirect('explore/ring')}
-        </LayoutProvider>
-    )
+    const data = new ExtractorComponent({});
+    return redirect('explore/ring');
+
 }
