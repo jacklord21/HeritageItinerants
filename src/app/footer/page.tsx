@@ -15,7 +15,7 @@ interface FooterProps {
 
 
 
-export default function Footer ({ringClickEnabled, gridClickEnabled}: FooterProps)  {
+export function Footer ({ringClickEnabled, gridClickEnabled}: FooterProps)  {
     const extractor = ExtractorComponent.getInstance();
 
     const [collMenuVisible, setCollMenuVisible] = useState(false);
