@@ -15,7 +15,7 @@ interface FooterProps {
 
 
 
-export function Footer ({ringClickEnabled, gridClickEnabled}: FooterProps)  {
+const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}) => {
     const extractor = ExtractorComponent.getInstance();
 
     const [collMenuVisible, setCollMenuVisible] = useState(false);
@@ -217,4 +217,4 @@ export function Footer ({ringClickEnabled, gridClickEnabled}: FooterProps)  {
 
 
 
-//export default Footer;
+export default Footer;
