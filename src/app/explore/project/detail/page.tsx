@@ -1,11 +1,16 @@
-import React from 'react';
+"use client";
+
+import React, {useEffect} from 'react';
 import './detail.css';
 import attr from '../../../../projAttr.json';
-import Footer from "@/app/footer/footer";
+import eventEmitter from '../../../../Emitter';
 
 export default function DetailPage ({ searchParams }: { searchParams: any }) {
     const data = JSON.parse(decodeURIComponent(searchParams.project));
 
+    useEffect(() => {
+        eventEmitter.emit("searchViewStateChanged", false);
+    }, []);
 
     return (
             <div className="mainDetailContainer">

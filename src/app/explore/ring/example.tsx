@@ -23,6 +23,7 @@ const Example = () => {
         };
 
         eventEmitter.on('listaCambiata', handleListaCambiata);
+        eventEmitter.emit("searchViewStateChanged", true);
 
         return () => {
             eventEmitter.off('listaCambiata', handleListaCambiata);
@@ -106,7 +107,7 @@ const Example = () => {
                 zIndex: "0",
                 justifyContent: "center",
                 alignItems: "center",
-                width: "90%",
+                width: "95%",
                 height: "350px",
                 margin: "auto",
                 overflow: "hidden"

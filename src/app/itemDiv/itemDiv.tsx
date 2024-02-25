@@ -15,7 +15,7 @@ interface itemDivProps {
 const ItemDiv: React.FC<itemDivProps> = ({imageUrl, projectName, textActive, width, height, imageHeight}) => {
 
     return (
-        <div className="divItem" style={{width: width, height: height,}}>
+        <div className="divItem" style={{width: width, height: height}}>
             <img className="itemDivImage" style={{height: imageHeight}} src={imageUrl}/>
             {
                 textActive ? < div className="text font-roboto font-semibold text-21 text-black">{projectName}</div> : <></>

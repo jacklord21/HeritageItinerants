@@ -1,16 +1,30 @@
 "use client";
 
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Header from "@/app/header/header";
-import Footer from "@/app/footer/footer";
+import eventEmitter from '../../Emitter';
 
 const inter = Inter({ subsets: ['latin'] })
 
 
 export default function ExploreLayout({children}: {children: React.ReactNode}) {
+    const [searchView, setSearchView] = useState(true);
+
+    useEffect(() => {
+        const handleSearchViewState= (state:  boolean) => {
+            setSearchView(state);
+        };
+
+        eventEmitter.on('searchViewStateChanged', handleSearchViewState);
+
+        return () => {
+            eventEmitter.off('searchViewStateChanged', handleSearchViewState);
+        };
+    }, []);
+
+
     return (
             <html lang="it">
             <body className="bg-white" style={{
@@ -21,8 +35,8 @@ export default function ExploreLayout({children}: {children: React.ReactNode}) {
                 overflow: "hidden"
             }}>
                 <Header
-                    viewSearchBar={true}
-                    progettiEnabled={true}
+                    viewSearchBar={searchView}
+                    progettiEnabled={false}
                     contribuisciEnabled={true}
                     aboutEnabled={true}
                 />

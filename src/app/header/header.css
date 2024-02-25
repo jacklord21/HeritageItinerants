@@ -11,6 +11,7 @@
     box-sizing: border-box;
     position: fixed;
     z-index: 1000;
+    user-select: none;
 }
 
 .leftContainer {
@@ -52,4 +53,9 @@
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+
+.links {
+    user-select: none;
 }

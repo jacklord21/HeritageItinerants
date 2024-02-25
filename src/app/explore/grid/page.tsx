@@ -18,6 +18,7 @@ export default function Grid() {
         };
 
         eventEmitter.on('listaCambiata', handleListaCambiata);
+        eventEmitter.emit("searchViewStateChanged", true);
 
         return () => {
             eventEmitter.off('listaCambiata', handleListaCambiata);
