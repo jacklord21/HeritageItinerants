@@ -9,7 +9,7 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
 
     return (
             <div className="mainDetailContainer">
-                <div className="nomeProgetto font-mont font-semibold text-70 text-black">
+                <div className="nomeProgetto font-mont font-semibold text-50 text-black">
                     <p>{data.name}</p>
                 </div>
                 <div className="progetti">
@@ -24,7 +24,7 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                                 </div>
                                 <div className="frame-2">
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.author}</div>
-                                    <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.date}</div>
+                                    <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.year}</div>
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.webAddress}</div>
                                     <div className="fruition">
                                         {data.fruition.map((mod: any, index: number) => (
@@ -41,7 +41,7 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                             </div>
                         </div>
                         <div className="foto">
-                            <img className="mainImage" src={data.mainImagePath}/>
+                            <img className="mainImage" src={data.mainImagePath} style={{objectFit: data.objectFit}}/>
                         </div>
                     </div>
                     <div className="right-side">
@@ -53,9 +53,9 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                         </div>
                         <div id="parent" className="immagini font-roboto font-regular text-20 text-black">
                             <div className="text-wrapper-detail font-mont font-medium text-25 text-black">Immagini</div>
-                                <div id="parent" className="gallery">
+                                    <div id="parent" className="gallery">
                                     {data.images.map((image: any, index: number) => (
-                                        <img className="image" src={image.imagePath} alt={image.name} key={index} />
+                                        <img className="image" style={{width: data.width}} src={image.imagePath} alt={image.name} key={index} />
                                     ))}
                                 </div>
                         </div>

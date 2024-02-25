@@ -5,17 +5,17 @@
     flex-direction: column;
 }
 
-.divItem .image {
-    width: 100%;
-    height: auto;
+.divItem .itemDivImage {
+    width: 330px;
+    height: 140px;
     display: block;
-    background-color: black;
-    object-fit: cover;
+    background-color: transparent;
+    object-fit: contain;
 }
 
 .divItem .text {
     text-align: center;
-    word-wrap: break-word;
+    word-wrap: normal;
     padding: 10px 10px 0 10px;
     color: black;
 }

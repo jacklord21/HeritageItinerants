@@ -42,6 +42,7 @@ const Example = () => {
                 <ItemDiv
                     width={"330px"}
                     height={"fit-content"}
+                    imageHeight={"186px"}
                     textActive={true}
                     imageUrl={project.mainImagePath}
                     projectName={project.name}

@@ -18,7 +18,7 @@ export default function ExploreLayout( {children}:{children: React.ReactNode} )
             <body className="bg-white">
                 <Header
                     viewSearchBar={false}
-                    progettiEnabled={false}
+                    progettiEnabled={true}
                     contribuisciEnabled={true}
                     aboutEnabled={false}/>
                 {children}

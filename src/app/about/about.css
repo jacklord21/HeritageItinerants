@@ -1,0 +1,40 @@
+.mainAboutContainer {
+    margin-top: 80px;
+    margin-bottom: 32px;
+    padding: 0 20px 0;
+    width: 100%;
+    height: calc(100vh - 112px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.aboutTitle {
+    color: #000000;
+    white-space: nowrap;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.aboutDesc {
+    word-wrap: break-word;
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100vh - 192px);
+}
+
+ul {
+    display: list-item;
+ }
+li {
+    margin-left: 40px;
+    font-family: "Roboto-Regular", serif;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-type: circle;
+}

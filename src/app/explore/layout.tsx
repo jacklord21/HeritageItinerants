@@ -17,10 +17,12 @@ export default function ExploreLayout({children}: {children: React.ReactNode}) {
                 justifyContent: "center",
                 width: "100%",
                 height: "100vh",
-            overflow: "hidden"}}>
+                maxHeight: "100vh",
+                overflow: "hidden"
+            }}>
                 <Header
                     viewSearchBar={true}
-                    progettiEnabled={false}
+                    progettiEnabled={true}
                     contribuisciEnabled={true}
                     aboutEnabled={true}
                 />

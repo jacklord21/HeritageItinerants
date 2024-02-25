@@ -40,6 +40,7 @@ export default function Grid() {
                 <ItemDiv
                     width={"fit-content"}
                     height={"fit-content"}
+                    imageHeight={"140px"}
                     textActive={true}
                     imageUrl={project.mainImagePath}
                     projectName={project.name}

@@ -2,38 +2,36 @@
   "projects": {
     "project1": {
       "id": 1,
-      "name": "Project1 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "DigitalGiza",
+      "desc": "Digital Giza è una piattaforma digitale sviluppata per fornire un accesso dettagliato e interattivo al sito archeologico di Giza in Egitto, con particolare attenzione alle piramidi e alle tombe risalenti all'Antico Regno. Ciò avviene grazie ad una ricostruzione 3D dello stesso sito archeologico arricchita da una vasta gamma di risorse, tra cui dati archeologici, immagini, mappe, documenti e altre fonti pertinenti (relative alle famose piramidi di Giza e ai siti circostanti) che possono essere consultate mentre ci si muove all’interno della ricostruzione.\nAttraverso l'utilizzo di strumenti digitali e tecnologie avanzate, DigitalGiza si pone l'obiettivo di preservare digitalmente e catalogare in modo accessibile le informazioni relative alle strutture, alle iscrizioni, ai reperti e alla topografia del sito: sfruttando strumenti interattivi e risorse multimediali, gli utenti possono esplorare in dettaglio le piramidi, le tombe, i rilievi e altri reperti archeologici presenti nell'area di Giza. La piattaforma mira a fornire una visione approfondita e accessibile dell'antica civiltà egizia, offrendo informazioni approfondite sul contesto storico, culturale e archeologico di questo sito di importanza mondiale.",
       "mainData": {
-        "author": "Author of project1.",
-        "date": "Date of project1.",
-        "webAddress": "Web address of project1."
+        "author": "Harvard University & Museum of Fine Arts di Boston.",
+        "webAddress": "http://giza.fas.harvard.edu/giza3d/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/DigitalGiza/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/DigitalGiza/start.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/DigitalGiza/mapvisualization.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/DigitalGiza/3Dvisualization.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/DigitalGiza/siteinfo.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/DigitalGiza/exploration.png"
         }
       ],
-      "coll": true,
-      "year": 2001,
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2000,
       "fruition": [
-        1, 2
+        1, 3
       ],
       "cont": [
         0,
@@ -44,327 +42,518 @@
       "arg": [
         0,
         1,
-        2
+        5
       ]
     },
     "project2": {
       "id": 2,
-      "name": "Project2 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Histropedia",
+      "desc": "Histropedia è una piattaforma che consente agli utenti di creare, esplorare, personalizzare e condividere linee temporali (mappe cronologiche) interattive su una vasta gamma di argomenti storici, scientifici e culturali, anche combinando dati provenienti da Wikipedia e Wikidata. Questa piattaforma offre una modalità innovativa per rappresentare eventi storici, personaggi, luoghi e concetti, organizzandoli in una struttura cronologica interattiva.\nGli utenti possono aggiungere eventi, collegamenti, immagini e altre informazioni per creare linee temporali personalizzate e ricche di contenuti su temi specifici o periodi storici. Questo strumento è utilizzato sia da appassionati di storia che da professionisti per creare rappresentazioni visive dei dati storici, offrendo un modo intuitivo per esplorare e comprendere la cronologia degli eventi in un contesto visivo e interattivo.\nAttraverso Histropedia, gli utenti possono creare e personalizzare mappe cronologiche per visualizzare connessioni e relazioni tra diversi avvenimenti nel tempo. La piattaforma integra una vasta gamma di fonti e dati storici provenienti da risorse online, consentendo agli utenti di arricchire le mappe con informazioni dettagliate, immagini e link ad altre risorse esterne.",
       "mainData": {
-        "author": "Author of project2.",
-        "date": "Date of project2.",
-        "webAddress": "Web address of project2."
+        "author": "Navino Evans e Sean McBirnie",
+        "webAddress": "http://histropedia.com/timeline/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/Histropedia/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/Histropedia/timelineselection.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/Histropedia/timelinevisualization.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/Histropedia/iteminfo.png"
         }
       ],
+      "objectFit": "fill",
+      "width": "330px",
       "coll": true,
       "year": 2002,
       "fruition": [
         1
       ],
       "cont": [
-        0,
         2,
-        4
+        3
       ],
       "arg": [
-        0,
-        1,
         2,
-        3,
-        4
+        5
       ]
     },
     "project3": {
       "id": 3,
-      "name": "Project3 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "OpenContentProgram",
+      "desc": "L'Open Content Program è un'importante iniziativa che si concentra sulla promozione della condivisione aperta e accessibile di risorse digitali connesse all'arte e alla cultura. Il suo scopo principale è quello di ampliare l'accesso a queste risorse, incoraggiandone l'utilizzo, la diffusione e il riutilizzo attraverso l'adozione di licenze aperte, le quali consentono l'utilizzo dei contenuti culturali, purché venga attribuita la fonte originale.\nQuesta iniziativa si basa sui principi dell'open access e dell'open licensing, consentendo a chiunque di accedere, utilizzare e talvolta modificare le risorse culturali digitali senza restrizioni e senza la necessità di richiedere specifici permessi agli autori o ai detentori dei diritti d'autore. Ciò viene reso possibile grazie all'applicazione di licenze aperte, come ad esempio le licenze Creative Commons, che consentono diverse forme di utilizzo dei materiali culturali.\nIl punto centrale dell'Open Content Program è quello di favorire una libera circolazione di risorse culturali. Questo incoraggia non solo la creatività e l'innovazione ma stimola anche la ricerca nel campo dell'arte e della cultura. Inoltre, questo approccio mira a garantire una maggiore accessibilità alle risorse culturali digitali, promuovendo l'educazione, il processo di apprendimento e l'apprezzamento delle opere d'arte e dei contenuti culturali da parte di un vasto pubblico.",
       "mainData": {
-        "author": "Author of project3.",
-        "date": "Date of project3.",
-        "webAddress": "Web address of project3."
+        "author": "Getty Foundation Parte del J. Paul Getty Trust.",
+        "webAddress": "https://www.getty.edu/projects/open-content-program/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/OpenContentProgram/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed2.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed3.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed4.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/OpenContentProgram/unnamed5.png"
         }
       ],
+      "objectFit": "fill",
+      "width": "330px",
       "coll": true,
-      "year": 2003,
+      "year": 2013,
       "fruition": [
-        1
+        1,
+        2
       ],
       "cont": [
         0,
-        2,
-        4
+        1,
+        3,
+        5
       ],
       "arg": [
-        0,
         1,
         2,
-        3,
-        4
+        5
       ]
     },
     "project4": {
       "id": 4,
-      "name": "Project4 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "Australian Prints and Printmaking",
+      "desc": "Australian Prints and Printmaking è un portale web contenente una preziosa collezione di stampe e opere grafiche che costituiscono un autentico specchio dell'ampia e sfaccettata storia dell'arte grafica in Australia.\nAll'interno di questa collezione, si trovano opere che spaziano da quelle tradizionali a quelle estremamente contemporanee, offrendo così una panoramica completa dell'evoluzione dell'arte grafica nel contesto australiano. Questa vasta gamma di stampe e incisioni rappresenta una sorta di cronaca dell'evolversi dell'espressione visiva nel paese, attraverso differenti stili artistici, tecniche e periodi storici. Ogni singola opera rappresenta un tassello fondamentale nell'ambito dell'espressione artistica visiva del paese.\nQueste opere non sono solamente manifestazioni artistiche, ma fungono anche da strumento attraverso il quale gli artisti hanno espresso concetti, idee e valori culturali, sociali e politici peculiari dell'Australia. Esse sono un'autentica rappresentazione dell'identità nazionale, riflettendo in modo tangibile gli elementi culturali, le trasformazioni sociali e le sfide politiche affrontate dalla nazione nel corso della sua storia.",
       "mainData": {
-        "author": "Author of project4.",
-        "date": "Date of project4.",
-        "webAddress": "Web address of project4."
+        "author": "Roger Butler, National Gallery of Australia",
+        "webAddress": "https://www.printsandprintmaking.gov.au/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/AustralianPrintsandPrintmaking/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/byallartists.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/byallartists1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/bydecade.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/bysubject.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/bysubject1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/bytimeline.png"
+        },
+        {
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/bytimeline1.png"
+        },
+        {
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/byWorksAndNetworks.png"
+        },
+        {
+          "imagePath": "/images/projects/AustralianPrintsandPrintmaking/dettaglio.png"
         }
       ],
-      "coll": true,
-      "year": 2004,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project5": {
-      "id": 5,
-      "name": "Project5 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project5.",
-        "date": "Date of project5.",
-        "webAddress": "Web address of project5."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2005,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project6": {
-      "id": 6,
-      "name": "Project6 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project6.",
-        "date": "Date of project6.",
-        "webAddress": "Web address of project6."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2006,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project7": {
-      "id": 7,
-      "name": "Project7 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project7.",
-        "date": "Date of project7.",
-        "webAddress": "Web address of project7."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
       "year": 2007,
       "fruition": [
         1
       ],
       "cont": [
         0,
+        1,
+        3,
+        5
+      ],
+      "arg": [
+        2,
+        5
+      ]
+    },
+    "project5": {
+      "id": 5,
+      "name": "Dlmenetwork",
+      "desc": "La Digital Library of the Middle East (DLME) rappresenta un progetto che mira a fornire un accesso digitale a un vasto tesoro di risorse culturali e storiche legate al Medio Oriente. Questa iniziativa è stata avviata da un consorzio composto da istituzioni culturali, università e organizzazioni non profit che si sono unite per rendere disponibili una varietà di risorse digitali legate a questa regione.\nAll'interno della DLME, sono conservati e resi accessibili manoscritti antichi, fotografie storiche, mappe, registrazioni audio e video, oltre a una collezione di oggetti d'arte. Questo archivio digitale offre al pubblico l'opportunità di esplorare e approfondire la comprensione della cultura, dell'arte e della storia del Medio Oriente attraverso una vasta gamma di materiali digitali.\nUno degli obiettivi fondamentali della DLME è quello di promuovere la preservazione e l'accessibilità delle risorse culturali della regione del Medio Oriente. La piattaforma mira a preservare digitalmente le testimonianze storiche e culturali, contribuendo così a diffondere la conoscenza e a promuovere la consapevolezza sulla diversità e la ricchezza culturale del Medio Oriente.",
+      "mainData": {
+        "author": "Council on Library & Information Resources",
+        "webAddress": "http://dlmenetwork.org/library"
+      },
+      "mainImagePath": "/images/projects/Dlmenetwork/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/Dlmenetwork/unnamed.png"
+        },
+        {
+          "imagePath": "/images/projects/Dlmenetwork/unnamed1.png"
+        },
+        {
+          "imagePath": "/images/projects/Dlmenetwork/unnamed1.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2018,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        1,
+        5
+      ],
+      "arg": [
+        2,
+        3,
+        5
+      ]
+    },
+    "project6": {
+      "id": 6,
+      "name": "Virtual Wawel",
+      "desc": "Virtual Wawel consiste in un progetto di digitalizzazione del Castello Reale di Wawel, situato in Polonia, grazie al quale è possibile compiere un tour virtuale del castello stesso, della cattedrale e degli altri edifici storici situati nell'area. Ciò è reso possibile attraverso la creazione di modelli 3D per consentire ai visitatori di esplorare virtualmente l'interno del castello e dei suoi dintorni.\nUna caratteristica rilevante di questo tour virtuale è la possibilità di navigare sia al piano terra che al primo piano del castello, consentendo agli utenti di esaminare attentamente gli 87 dipinti presenti. L'applicazione offre la funzione di selezionare un dipinto specifico per visualizzarne tutti i dettagli, accompagnati da descrizioni dettagliate e spiegazioni audio.\nL'obiettivo principale di Virtual Wawel è quello di offrire un'esperienza educativa coinvolgente e dettagliata agli appassionati di storia, agli studenti e ai visitatori desiderosi di esplorare e comprendere il ricco patrimonio storico e artistico di Wawel.",
+      "mainData": {
+        "author": "Non trovato",
+        "webAddress": "http://3d.wawel.krakow.pl/"
+      },
+      "mainImagePath": "/images/projects/VirtualWawel/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/VirtualWawel/viewbylist.png"
+        },
+        {
+          "imagePath": "/images/projects/VirtualWawel/airView.png"
+        },
+        {
+          "imagePath": "/images/projects/VirtualWawel/navigation.png"
+        },
+        {
+          "imagePath": "/images/projects/VirtualWawel/pictureinteraction.png"
+        },
+        {
+          "imagePath": "/images/projects/VirtualWawel/pictureinfo.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2020,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        3,
+        4
+      ],
+      "arg": [
+        1,
+        2,
+        5
+      ]
+    },
+    "project7": {
+      "id": 7,
+      "name": "Openheritage3d",
+      "desc": "Open Heritage 3D è una piattaforma che si concentra sulla documentazione digitale dei siti storici e culturali utilizzando la tecnologia di scansione 3D per monumenti, siti storici e opere d'arte di interesse storico e culturale. Questa piattaforma si propone di rendere il patrimonio culturale mondiale accessibile a un pubblico più ampio e di promuovere la sua conservazione attraverso la tecnologia 3D e la condivisione di dati.\nL'obiettivo principale di Open Heritage 3D è preservare e documentare in dettaglio monumenti e siti storici di tutto il mondo, consentendo al pubblico di esplorarli virtualmente e di accedere a dettagliati modelli 3D. Attraverso la collaborazione con istituzioni culturali e archeologiche, il progetto utilizza strumenti avanzati di scansione laser e fotogrammetria per acquisire dati precisi e creare rappresentazioni digitali accurate di siti patrimonio dell'umanità, monumenti storici e aree di interesse culturale.\nAttraverso la tecnologia di scansione 3D e altre tecniche avanzate, Open Heritage 3D cattura dettagliate rappresentazioni tridimensionali di monumenti e siti storici. Questi modelli consentono agli utenti di esplorare dettagli architettonici, rilevare eventuali deterioramenti e preservare virtualmente queste opere per il futuro. La piattaforma offre agli esperti, studiosi, studenti e al pubblico generale la possibilità di studiare, analizzare e apprezzare in dettaglio questi siti, promuovendo nel contempo la conservazione e la diffusione della conoscenza.",
+      "mainData": {
+        "author": "Google Arts & Culture.",
+        "webAddress": "https://openheritage3d.org/"
+      },
+      "mainImagePath": "/images/projects/Openheritage3d/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/Openheritage3d/itemselection.png"
+        },
+        {
+          "imagePath": "/images/projects/Openheritage3d/itemdetails.png"
+        },
+        {
+          "imagePath": "/images/projects/Openheritage3d/itemvirtualreconstruction.png"
+        },
+        {
+          "imagePath": "/images/projects/Openheritage3d/itemmetadata.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": true,
+      "year": 2018,
+      "fruition": [
+        1
+      ],
+      "cont": [
         2,
         4
       ],
       "arg": [
-        0,
         1,
-        2,
-        3,
-        4
+        5
       ]
     },
     "project8": {
       "id": 8,
-      "name": "Project8 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "World Heritage Interactive Map",
+      "desc": "World Heritage Interactive Map, nata dalla collaborazione tra Google e l'UNESCO, è una piattaforma web la quale, tramite una mappa interattiva dei siti del patrimonio mondiale dell'UNESCO, offre un'esperienza di esplorazione coinvolgente e informativa dei siti di rilevanza culturale e naturale designati dall'UNESCO come patrimonio mondiale. Questa piattaforma interattiva si pone come un invito all'esplorazione e alla scoperta di una vasta gamma di siti di straordinario valore storico, culturale e naturalistico, distribuiti in diverse aree del pianeta.\nIl cuore di questa esperienza coinvolgente è l'interfaccia utente intuitiva e coinvolgente che permette agli esploratori virtuali di viaggiare attraverso i siti del patrimonio mondiale, fornendo accesso a informazioni dettagliate, straordinarie immagini e approfondimenti storici fondamentali relativi a ciascun luogo. Attraverso la piattaforma, gli utenti possono approfondire la loro comprensione e apprezzamento di questi siti, scoprendo le loro radici storiche, culturali e naturali.",
       "mainData": {
-        "author": "Author of project8.",
-        "date": "Date of project8.",
-        "webAddress": "Web address of project8."
+        "author": "UNESCO World Heritage Centre",
+        "webAddress": "https://whc.unesco.org/en/list"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/WorldHeritageInteractiveMap/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/WorldHeritageInteractiveMap/itemselection.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/WorldHeritageInteractiveMap/itemdetails1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/WorldHeritageInteractiveMap/itemdetails2.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/WorldHeritageInteractiveMap/itemdetails3.png"
         }
       ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2018,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        1,
+        4,
+        5
+      ],
+      "arg": [
+        1,
+        2,
+        5
+      ]
+    },
+    "project9": {
+      "id": 9,
+      "name": "DigitalMuseum",
+      "desc": "DigitalMuseum, sviluppato dal consorzio di musei norvegesi KulturIT, costituisce una piattaforma di riferimento nel panorama digitale norvegese, fungendo da raccoglitore per una vasta gamma di collezioni provenienti da musei, archivi e istituzioni culturali sparse in tutto il territorio norvegese.\nQuesta piattaforma offre agli utenti la possibilità di immergersi nella ricchezza della storia, della cultura e del patrimonio norvegese attraverso una miriade di risorse digitalizzate. Tra queste spiccano opere d'arte, fotografie storiche, manufatti culturali, documenti antichi e altre testimonianze che riflettono la diversità e la profondità della storia del paese.\nDigitalMuseum si pone come uno strumento essenziale per esplorare e comprendere la cultura norvegese, fornendo un'ampia varietà di contenuti digitali che abbracciano diversi periodi storici, stili artistici e aspetti culturali. Attraverso un'interfaccia intuitiva e interattiva, gli utenti possono navigare agevolmente tra le collezioni, accedere a dettagliate informazioni su ciascun oggetto esposto, arricchendo così la loro comprensione del patrimonio culturale norvegese.",
+      "mainData": {
+        "author": "Consorzio di musei norvegesi KulturIT",
+        "webAddress": "https://digitaltmuseum.no/"
+      },
+      "mainImagePath":  "/images/projects/DigitalMuseum/home.png",
+      "images": [
+        {
+          "imagePath":  "/images/projects/DigitalMuseum/collections.png"
+        },
+        {
+          "imagePath":  "/images/projects/DigitalMuseum/mapItemSelection.png"
+        },
+        {
+          "imagePath":  "/images/projects/DigitalMuseum/virtualexperiencesselection.png"
+        },
+        {
+          "imagePath":  "/images/projects/DigitalMuseum/virtualtourmuseum.png"
+        },
+        {
+          "imagePath":  "/images/projects/DigitalMuseum/accessTo.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2011,
+      "fruition": [
+        1,
+        3
+      ],
+      "cont": [
+        1,
+        3,
+        5
+      ],
+      "arg": [
+        1,
+        2,
+        5
+      ]
+    },
+    "project10": {
+      "id": 10,
+      "name": "MuseumWithoutWalls",
+      "desc": "L'app MuseumWithoutWalls si presenta come un’app mobile dedicata alla valorizzazione e all'accessibilità delle opere d'arte pubbliche, dei monumenti storici e degli elementi architettonici presenti all'interno dello spazio urbano.\nOffre agli utenti la possibilità di esplorare un ampio spettro di opere d'arte all'aperto, monumenti storici e installazioni artistiche, fornendo approfondimenti e informazioni dettagliate sul contesto storico e culturale di ciascuna opera. Una delle funzionalità principali è rappresentata dalle guide audio che accompagnano gli utenti durante il loro percorso, arricchendo l'esperienza di visita con narrazioni coinvolgenti e approfondimenti sulla storia e sul significato delle opere esposte.\nCiò che rende unica questa applicazione è la sua capacità di trasformare gli spazi urbani in autentici musei a cielo aperto. Attraverso la valorizzazione delle opere d'arte pubbliche e dei monumenti storici presenti nelle città, l'app offre agli utenti un'esperienza di apprendimento e scoperta mentre si muovono attraverso le strade e i quartieri urbani.",
+      "mainData": {
+        "author": "cultureNOW, Inc.",
+        "webAddress": "http://themuseumwithoutwalls.org/Home/Home"
+      },
+      "mainImagePath": "/images/projects/MuseumWithoutWalls/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/MuseumWithoutWalls/unnamed.png"
+        },
+        {
+          "imagePath": "/images/projects/MuseumWithoutWalls/unnamed1.png"
+        },
+        {
+          "imagePath": "/images/projects/MuseumWithoutWalls/unnamed2.png"
+        }
+      ],
+      "objectFit": "contain",
+      "width": "fit-content",
+      "coll": false,
+      "year": 2022,
+      "fruition": [
+        0
+      ],
+      "cont": [
+        1,
+        3
+      ],
+      "arg": [
+        1,
+        2,
+        5
+      ]
+    },
+    "project11": {
+      "id": 11,
+      "name": "MET app",
+      "desc": "La MET app è un'applicazione sviluppata dal Metropolitan Museum of Art (MET) di New York City con lo scopo di offrire un accesso interattivo e coinvolgente alla sua vasta collezione di opere d'arte e risorse culturali. Quest'applicazione consente agli utenti di esplorare in modo dettagliato migliaia di opere d'arte, antichità e oggetti culturali dalla collezione del MET.\nAttraverso la MET app, gli utenti possono visitare il METMuseum grazie ai tour virtuali che guidano gli utenti nelle diverse gallerie del museo, offrendo dettagliate narrazioni audio e immagini ad alta risoluzione delle opere d'arte. Include anche una mappa interattiva del museo che agevola l'orientamento all'interno dell'edificio, permettendo ai visitatori di trovare facilmente le gallerie e le opere d'arte di loro interesse.\nUno dei punti di forza dell'applicazione è la sua interfaccia intuitiva che permette agli utenti di scoprire opere d'arte in base a diversi criteri, come autore, periodo storico, stile artistico o tema specifico. Inoltre, offre funzionalità interattive come zoom ad alta risoluzione sulle opere d'arte, consentendo agli utenti di esplorare i dettagli e l'artigianato delle opere in modo approfondito. In aggiunta, l'app fornisce aggiornamenti sulle mostre in corso, consentendo agli utenti di essere sempre informati sulle attività del museo e sulle mostre speciali.",
+      "mainData": {
+        "author": "Metropolitan Museum of Art.",
+        "webAddress": "https://www.metmuseum.org/blogs/now-at-the-met/2014/the-new-met-app"
+      },
+      "mainImagePath": "/images/projects/METapp/home.png",
+      "images": [
+        {
+          "imagePath":       "/images/projects/METapp/unnamed.png"
+        },
+        {
+          "imagePath":       "/images/projects/METapp/unnamed1.png"
+        },
+        {
+          "imagePath":       "/images/projects/METapp/explanation.png"
+        }
+      ],
+      "objectFit": "contain",
+      "width": "fit-content",
+      "coll": false,
+      "year": 2014,
+      "fruition": [
+        0,
+        3
+      ],
+      "cont": [
+        1,
+        3,
+        4
+      ],
+      "arg": [
+        2,
+        5
+      ]
+    },
+    "project12": {
+      "id": 12,
+      "name": "Timeline of Historical Film Colors",
+      "desc": "Timeline of Historical Film Colors è una piattaforma creata nel 2012 e curata dalla Professoressa Barbara Flueckiger dell'Università di Zurigo. L'obiettivo è fornire informazioni complete sui processi storici di colore nel cinema, dalla fine del XIX secolo in avanti, inclusi predecessori concettuali nella fotografia a colori. Inizialmente avviato con la ricerca di Flueckiger a Harvard nel progetto \"Film History Re-mastered\" (2011-2013), il progetto ha ottenuto finanziamenti aggiuntivi nel 2013. Una campagna di crowdfunding nel 2012 ha raccolto oltre 11.100 dollari, e il supporto è stato fornito anche dall'Istituto per le Arti dello Spettacolo e il Cinema dell'Università di Zurigo. Dall'inizio del 2016, il database è stato rielaborato nel contesto del progetto di ricerca \"Film Colors. Technologies, Cultures, Institutions\", finanziato dalla Fondazione Svizzera per la Ricerca Nazionale. Dal 2016, il team del progetto ERC Advanced Grant FilmColors ha raccolto fonti scritte e fotografie, catturando immagini di pellicole cinematografiche storiche dal 2017.",
+      "mainData": {
+        "author": "Barbara Flueckiger",
+        "webAddress": "https://filmcolors.org/"
+      },
+      "mainImagePath": "/images/projects/FilmColors/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/FilmColors/un.png"
+        },
+        {
+          "imagePath": "/images/projects/FilmColors/un1.png"
+        },
+        {
+          "imagePath": "/images/projects/FilmColors/un2.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2012,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        4
+      ],
+      "arg": [
+        2
+      ]
+    },
+    "project13": {
+      "id": 13,
+      "name": "Historypin",
+      "desc": "Historypin è una piattaforma online che offre agli utenti la possibilità di esplorare la storia attraverso foto e storie locali. La sua caratteristica distintiva è una mappa interattiva che consente agli utenti di navigare nel mondo per scoprire foto storiche collegate a luoghi specifici. Gli utenti possono caricare le proprie foto storiche, collegandole a posizioni geografiche, e partecipare attivamente alle discussioni sulla storia locale. La funzione di sovrapposizione di immagini consente di confrontare il passato e il presente di un luogo, mentre la creazione di collezioni tematiche e tour virtuali offre un modo organizzato per esplorare narrazioni storiche specifiche. La piattaforma promuove la partecipazione sociale, incoraggiando la condivisione di conoscenze e ricordi. Historypin serve anche come piattaforma collaborativa per progetti che coinvolgono istituzioni culturali e comunità locali, contribuendo alla preservazione e condivisione della storia locale in tutto il mondo.",
+      "mainData": {
+        "author": "We Are What We Do Institution",
+        "webAddress": "https://www.historypin.org/en/"
+      },
+      "mainImagePath": "/images/projects/Historypin/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/Historypin/coll.png"
+        },
+        {
+          "imagePath": "/images/projects/Historypin/collInfo.png"
+        }
+      ],
+      "objectFit": "contain",
+      "width": "fit-content",
+      "coll": true,
+      "year": 2011,
+      "fruition": [
+        0,
+        1
+      ],
+      "cont": [
+        1
+      ],
+      "arg": [
+        5
+      ]
+    },
+    "project14": {
+      "id": 14,
+      "name": "The Great War Archive",
+      "desc": "The Great War Archive è un progetto di archiviazione collaborativo che ha lo scopo di raccogliere e condividere materiale visuale e documentario collegato alla Prima Guerra Mondiale. La piattaforma è stata lanciata nel 2008 dalla Oxford University nel Regno Unito. L'obiettivo principale è coinvolgere il pubblico nella condivisione di memorabilia e documenti personali legati alla Prima Guerra Mondiale, creando un archivio digitale globale. Gli utenti sono incoraggiati a contribuire con fotografie, lettere, diari e altri oggetti d'epoca appartenenti a loro familiari o collezioni personali. La piattaforma offre una visione unica della vita durante la guerra attraverso gli occhi delle persone comuni, contribuendo così a preservare e condividere testimonianze preziose. Con un approccio partecipativo, The Great War Archive offre un'opportunità unica di connessione con la storia attraverso le esperienze personali dei partecipanti e contribuisce alla creazione di un archivio digitale ricco e diversificato sulla Prima Guerra Mondiale.",
+      "mainData": {
+        "author": "Oxford University",
+        "webAddress": "http://ww1lit.nsms.ox.ac.uk/ww1lit/gwa"
+      },
+      "mainImagePath": "/images/projects/TheGreatWarArchive/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/TheGreatWarArchive/search.png"
+        },
+        {
+          "imagePath": "/images/projects/TheGreatWarArchive/coll.png"
+        },
+        {
+          "imagePath": "/images/projects/TheGreatWarArchive/dett.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
       "coll": true,
       "year": 2008,
       "fruition": [
@@ -372,829 +561,477 @@
       ],
       "cont": [
         0,
-        2,
-        4
+        1,
+        5
       ],
       "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
+        5
       ]
     },
-    "project9": {
-      "id": 9,
-      "name": "Project9 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "project15": {
+      "id": 15,
+      "name": "British Museum Audio",
+      "desc": "L'app British Museum Audio è una innovativa applicazione mobile progettata per arricchire l'esperienza dei visitatori attraverso contenuti audio coinvolgenti legati alle mostre, alle collezioni e alla storia del prestigioso museo. Gli utenti possono sfruttare questa app per accedere a descrizioni dettagliate e approfondite delle opere d'arte, degli oggetti storici e dei reperti in esposizione. Attraverso l'uso di auricolari o altoparlanti integrati nei propri dispositivi mobili, i visitatori possono immergersi nelle narrazioni audio curate dagli esperti del museo, ottenendo così una comprensione più profonda e contestuale di ciò che stanno osservando. Questo approccio offre una prospettiva unica e personalizzata alle opere in mostra, permettendo agli utenti di esplorare autonomamente il museo mentre ricevono informazioni dettagliate e approfondite. L'app non solo arricchisce il momento della visita, ma contribuisce anche a rendere accessibile la conoscenza e a coinvolgere il pubblico in modo innovativo nel patrimonio culturale custodito dal British Museum.",
       "mainData": {
-        "author": "Author of project9.",
-        "date": "Date of project9.",
-        "webAddress": "Web address of project9."
+        "author": "British Museum",
+        "webAddress": "https://www.britishmuseum.org/visit/audio-app"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/BritishMuseumAudio/argvisit.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/BritishMuseumAudio/search.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/BritishMuseumAudio/galleries.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/BritishMuseumAudio/audio.png"
         }
       ],
-      "coll": true,
-      "year": 2009,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project10": {
-      "id": 10,
-      "name": "Project10 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project10.",
-        "date": "Date of project10.",
-        "webAddress": "Web address of project10."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2010,
+      "objectFit": "contain",
+      "width": "fit-content",
+      "coll": false,
+      "year": 2022,
       "fruition": [
         0
       ],
       "cont": [
         0,
+        3,
+        4
+      ],
+      "arg": [
         2,
+        5
+      ]
+    },
+    "project16": {
+      "id": 16,
+      "name": "Hermitage Museum",
+      "desc": "Hermitage Museum rappresenta una piattaforma che consente agli utenti di immergersi virtualmente nelle ricche collezioni del Museo dell'Ermitage di San Pietroburgo. Questa piattaforma offre agli appassionati d'arte e ai curiosi la possibilità di esplorare in dettaglio le sale del museo e le opere d'arte attraverso mappe interattive e tour virtuali. Mediante mappe interattive, gli utenti possono orientarsi all'interno del vasto museo e individuare le varie sezioni, gallerie e collezioni. I tour virtuali consentono di camminare virtualmente attraverso gli spazi del museo, offrendo la sensazione di trovarsi fisicamente tra le opere d'arte. Questa esperienza può includere la visualizzazione di capolavori artistici, reperti storici e altri oggetti di valore custoditi nelle diverse sale. Durante il percorso virtuale, gli utenti potrebbero avere accesso a informazioni dettagliate sulle opere, grazie a descrizioni audio o testuali. Questo approccio non solo offre la possibilità di esplorare autonomamente il museo, ma può anche arricchire la conoscenza degli utenti fornendo contesto storico, artistico e culturale sulle opere in mostra.",
+      "mainData": {
+        "author": "Hermitage Museum",
+        "webAddress": "https://www.hermitagemuseum.org/wps/portal/hermitage?lng=it"
+      },
+      "mainImagePath": "/images/projects/HermitageMuseum/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/HermitageMuseum/tours.png"
+        },
+        {
+          "imagePath": "/images/projects/HermitageMuseum/map.png"
+        },
+        {
+          "imagePath": "/images/projects/HermitageMuseum/exp.png"
+        },
+        {
+          "imagePath": "/images/projects/HermitageMuseum/iteminfo.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 1996,
+      "fruition": [
+        1,
+        3
+      ],
+      "cont": [
+        3,
+        4
+      ],
+      "arg": [
+        2,
+        3,
+        5
+      ]
+    },
+    "project17": {
+      "id": 17,
+      "name": "Tennessee State Museum & Tennessee for me",
+      "desc": "Il sito web del Tennessee State Museum offre una stimolante esperienza digitale, consentendo agli utenti di esplorare virtualmente le collezioni e le mostre del museo. Attraverso gallerie virtuali, descrizioni dettagliate, e tour interattivi, gli appassionati d'arte e il pubblico generale possono accedere comodamente a una vasta gamma di opere d'arte e reperti storici. Questa piattaforma digitale fornisce un archivio digitale ricco di immagini, documenti e materiali multimediali, offrendo così una finestra informativa sulla storia e la cultura del Tennessee. La presenza di risorse educative online aggiunge ulteriore valore, permettendo agli utenti di arricchire la propria comprensione in modo coinvolgente e accessibile.",
+      "mainData": {
+        "author": "Tennessee State Museum",
+        "webAddress": "https://tnmuseum.org/"
+      },
+      "mainImagePath": "/images/projects/TennesseeStateMuseum/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/TennesseeStateMuseum/exibchoice.png"
+        },
+        {
+          "imagePath": "/images/projects/TennesseeStateMuseum/exib.png"
+        },
+        {
+          "imagePath": "/images/projects/TennesseeStateMuseum/gallery.png"
+        },
+        {
+          "imagePath": "/images/projects/TennesseeStateMuseum/galldett.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2000,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
+        1,
+        5
+      ],
+      "arg": [
+        0,
+        2,
+        5
+      ]
+    },
+    "project18": {
+      "id": 18,
+      "name": "The Louvre Online Collections",
+      "desc": "The Louvre Online Collections è una straordinaria piattaforma digitale che offre un accesso immediato e dettagliato a migliaia di opere d'arte e oggetti culturali custoditi nel prestigioso Museo del Louvre. Grazie a questa piattaforma, gli utenti hanno la possibilità di esplorare virtualmente le ricche collezioni del museo, sfogliare opere d'arte, cercare specifici capolavori e immergersi in mostre online tematiche. La piattaforma fornisce un'interfaccia intuitiva che consente agli utenti di accedere a informazioni dettagliate su ciascun oggetto, arricchendo la loro comprensione storica e artistica. Inoltre, questa risorsa digitale rappresenta un'opportunità straordinaria per esplorare il Louvre da qualsiasi luogo, rendendo l'arte e la cultura accessibili a un pubblico globale. La possibilità di esplorare il museo in modo interattivo e di accedere a informazioni approfondite su ogni opera contribuisce a creare un'esperienza digitale coinvolgente e educativa per gli appassionati d'arte e gli studiosi.",
+      "mainData": {
+        "author": "Museo del Louvre",
+        "webAddress": "https://collections.louvre.fr/en/"
+      },
+      "mainImagePath": "/images/projects/TheLouvreOnlineCollections/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/TheLouvreOnlineCollections/coll.png"
+        },
+        {
+          "imagePath": "/images/projects/TheLouvreOnlineCollections/colldett.png"
+        },
+        {
+          "imagePath": "/images/projects/TheLouvreOnlineCollections/collitemdett.png"
+        },
+        {
+          "imagePath": "/images/projects/TheLouvreOnlineCollections/colliteminfo.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2004,
+      "fruition": [
+        1
+      ],
+      "cont": [
+        0,
         4
       ],
       "arg": [
         0,
-        1,
-        2
+        2,
+        5
       ]
     },
-    "project11": {
-      "id": 11,
-      "name": "Project11 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "project19": {
+      "id": 19,
+      "name": "CyARK",
+      "desc": "CyArk è una piattaforma digitale che si focalizza sulla documentazione e la conservazione virtuale di patrimoni culturali e monumenti storici. Utilizza avanzate tecnologie di scansione laser e fotografia 3D per creare modelli digitali accurati di siti storici in tutto il mondo. La piattaforma offre agli utenti la possibilità di esplorare in modo dettagliato questi modelli digitali, consentendo una visita virtuale a monumenti iconici e siti storici altrimenti difficili da raggiungere. Attraverso una combinazione di precisione scientifica e tecnologie immersive, CyArk non solo preserva digitalmente siti culturali vulnerabili, ma offre anche una risorsa educativa e accessibile per il pubblico globale. La missione di CyArk è di garantire che la storia e la bellezza di questi luoghi siano conservate digitalmente per le generazioni future, contribuendo così alla promozione della conservazione e della consapevolezza del patrimonio culturale mondiale.",
       "mainData": {
-        "author": "Author of project11.",
-        "date": "Date of project11.",
-        "webAddress": "Web address of project11."
+        "author": "No-profit organization",
+        "webAddress": "https://www.cyark.org/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/CyARK/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CyARK/projects.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CyARK/projinfo.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CyARK/virtual.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CyARK/virtualexp.png"
         }
       ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": true,
+      "year": 2003,
+      "fruition": [
+        1,
+        3
+      ],
+      "cont": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "arg": [
+        0,
+        2,
+        3,
+        5
+      ]
+    },
+    "project20": {
+      "id": 20,
+      "name": "Ancient Aquileia 3D",
+      "desc": "Ancient Aquileia 3D rappresenta un'innovativa esperienza che sfrutta la tecnologia di Realtà Aumentata (AR) per riportare in vita l'antica città di Aquileia. Gli utenti sono immersi in una ricostruzione tridimensionale virtuale della città, dove possono esplorare siti archeologici, rovine e reperti storici con un livello di dettaglio straordinario. La tecnologia AR consente agli utenti di sovrapporre virtualmente l'antica Aquileia al loro ambiente attuale attraverso la fotocamera del dispositivo, offrendo una prospettiva unica e coinvolgente. Durante l'esplorazione virtuale, gli utenti possono accedere a informazioni dettagliate sui luoghi storici, visualizzare descrizioni interattive e persino partecipare a tour guidati virtuali. Questa applicazione rappresenta un eccellente esempio di come la tecnologia moderna possa essere impiegata per preservare e condividere la storia, permettendo agli utenti di connettersi in modo innovativo con il ricco patrimonio di Aquileia.",
+      "mainData": {
+        "author": "Fondazione Aquileia",
+        "webAddress": "https://play.google.com/store/apps/details?id=it.Ikon.AquileiaVirtuale.android&hl=en&gl=US"
+      },
+      "mainImagePath": "/images/projects/AncientAquileia3D/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/AncientAquileia3D/exp.png"
+        },
+        {
+          "imagePath": "/images/projects/AncientAquileia3D/tourvis.png"
+        },
+        {
+          "imagePath": "/images/projects/AncientAquileia3D/tourvis2.png"
+        },
+        {
+          "imagePath": "/images/projects/AncientAquileia3D/tourvis3.png"
+        }
+      ],
+      "objectFit": "contain",
+      "width": "fit-content",
+      "coll": false,
+      "year": 2013,
+      "fruition": [
+        0,
+        3
+      ],
+      "cont": [
+        2
+      ],
+      "arg": [
+        0,
+        1,
+        5
+      ]
+    },
+    "project21": {
+      "id": 21,
+      "name": "Europeana",
+      "desc": "Europeana rappresenta una piattaforma culturale digitale che raccoglie una vasta gamma di risorse provenienti da istituzioni culturali sparse in tutta Europa. Questa piattaforma funge da archivio online, ospitando una collezione di opere d'arte, manufatti storici, documenti, libri, fotografie, registrazioni audio e video provenienti da musei, biblioteche, archivi e gallerie di vari paesi europei. La piattaforma offre strumenti di ricerca che permettono agli utenti di accedere a contenuti specifici o di navigare attraverso categorie, periodi storici o tipologie di opere. Europeana si impegna a migliorare l'accessibilità e l'usabilità della sua interfaccia, cercando di facilitare l'esperienza degli utenti nella ricerca e nell'esplorazione delle risorse culturali europee. È importante notare che non tutte le risorse culturali europee sono presenti su Europeana, in quanto la partecipazione delle istituzioni culturali è volontaria e alcune collezioni potrebbero non essere state digitalizzate o rese disponibili online per vari motivi, tra cui limitazioni di copyright, risorse limitate o altre restrizioni.",
+      "mainData": {
+        "author": "Principali istituzioni culturali europee.",
+        "webAddress": "http://europeana.eu/it"
+      },
+      "mainImagePath": "/images/projects/Europeana/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/Europeana/unnamed.png"
+        },
+        {
+          "imagePath": "/images/projects/Europeana/unnamed1.png"
+        },
+        {
+          "imagePath": "/images/projects/Europeana/unnamed2.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2008,
+      "fruition": [
+        1,
+        2
+      ],
+      "cont": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "arg": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "project22": {
+      "id": 22,
+      "name": "Le Gallerie degli Uffizi",
+      "desc": "Il sito web della Galleria degli Uffizi è una piattaforma informativa che accoglie visitatori, appassionati d'arte e studiosi. Fornisce un quadro completo sulla storia della galleria, mettendo in luce la ricchezza culturale e artistica custodita al suo interno. Attraverso una dettagliata presentazione delle collezioni permanenti e delle mostre temporanee, il sito offre agli utenti un'ampia panoramica delle opere d'arte esposte e delle iniziative culturali in corso. I tour virtuali in 360 gradi arricchiscono l'esperienza, permettendo agli utenti di immergersi virtualmente tra le opere, con descrizioni dettagliate che offrono un contesto approfondito. Inoltre, il sito fornisce informazioni pratiche e servizi utili per i visitatori, contribuendo a rendere l'esperienza di esplorazione della Galleria degli Uffizi informativa, coinvolgente e accessibile a un vasto pubblico.",
+      "mainData": {
+        "author": "Gallerie degli Uffizi",
+        "webAddress": "https://www.uffizi.it/en"
+      },
+      "mainImagePath": "/images/projects/uffizi/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/uffizi/coll.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/arch.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/arch2.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/arch3.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/arch4.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/art.png"
+        },
+        {
+          "imagePath": "/images/projects/uffizi/artdett.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": false,
+      "year": 2000,
+      "fruition": [
+        1,
+        3
+      ],
+      "cont": [
+        0,
+        3
+      ],
+      "arg": [
+        0,
+        2,
+        5
+      ]
+    },
+    "project23": {
+      "id": 23,
+      "name": "Citizen Archivist",
+      "desc": "Citizen Archivist è un programma sviluppato da diverse istituzioni archivistiche e bibliotecarie che coinvolge i cittadini comuni nella preservazione e nell'arricchimento dei materiali archivistici e storici digitali del patrimonio culturale degli Stati Uniti. Questo programma offre al pubblico l'opportunità di partecipare attivamente all'arricchimento e alla catalogazione di collezioni digitali, consentendo agli utenti di contribuire alla conservazione e alla fruizione di documenti storici e culturali.\nGli \"archivisti cittadini\" possono svolgere una serie di compiti, come ad esempio trascrivere testi di documenti storici, etichettare immagini, catalogare fotografie, correggere testi e annotare contenuti digitali. Queste attività contribuiscono significativamente alla creazione di risorse digitali di alta qualità e alla loro accessibilità, rendendo i materiali archivistici più facilmente ricercabili e utilizzabili da parte di studiosi, ricercatori e appassionati di storia.\nIl Citizen Archivist Program mira a coinvolgere il pubblico in modo attivo e a valorizzare le conoscenze e le competenze dei partecipanti. Attraverso la partecipazione di persone provenienti da diverse comunità e con interessi diversificati, si arricchiscono le descrizioni e le informazioni relative ai materiali archivistici, contribuendo così a una migliore comprensione e interpretazione della storia.",
+      "mainData": {
+        "author": "NARA (National US Archives and Records Administration)",
+        "webAddress": "https://www.archives.gov/citizen-archivist"
+      },
+      "mainImagePath": "/images/projects/CitizenArchivist/home.png",
+      "images": [
+        {
+          "imagePath": "/images/projects/CitizenArchivist/unnamed.png"
+        },
+        {
+          "imagePath": "/images/projects/CitizenArchivist/unnamed1.png"
+        },
+        {
+          "imagePath": "/images/projects/CitizenArchivist/unnamed2.png"
+        }
+      ],
+      "objectFit": "fill",
+      "width": "330px",
       "coll": true,
       "year": 2011,
       "fruition": [
         1
       ],
       "cont": [
-        0,
-        2,
-        4
+        1,
+        4,
+        5
       ],
       "arg": [
-        0,
         1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project12": {
-      "id": 12,
-      "name": "Project2 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project12.",
-        "date": "Date of project12.",
-        "webAddress": "Web address of project12."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2012,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project13": {
-      "id": 13,
-      "name": "Project13 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project13.",
-        "date": "Date of project13.",
-        "webAddress": "Web address of project13."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2013,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project14": {
-      "id": 14,
-      "name": "Project14 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project14.",
-        "date": "Date of project14.",
-        "webAddress": "Web address of project14."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2014,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project15": {
-      "id": 15,
-      "name": "Project15 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project15.",
-        "date": "Date of project15.",
-        "webAddress": "Web address of project15."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2015,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project16": {
-      "id": 16,
-      "name": "Project16 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project16.",
-        "date": "Date of project16.",
-        "webAddress": "Web address of project16."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2016,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project17": {
-      "id": 17,
-      "name": "Project17 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project17.",
-        "date": "Date of project17.",
-        "webAddress": "Web address of project17."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2017,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project18": {
-      "id": 18,
-      "name": "Project18 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project18.",
-        "date": "Date of project18.",
-        "webAddress": "Web address of project18."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2018,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project19": {
-      "id": 19,
-      "name": "Project19 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project19.",
-        "date": "Date of project19.",
-        "webAddress": "Web address of project19."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2019,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project20": {
-      "id": 20,
-      "name": "Project20 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project20.",
-        "date": "Date of project20.",
-        "webAddress": "Web address of project20."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": true,
-      "year": 2020,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project21": {
-      "id": 21,
-      "name": "Project21 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project21.",
-        "date": "Date of project21.",
-        "webAddress": "Web address of project21."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": false,
-      "year": 2021,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project22": {
-      "id": 22,
-      "name": "Project22 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project22.",
-        "date": "Date of project22.",
-        "webAddress": "Web address of project22."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": false,
-      "year": 2022,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    "project23": {
-      "id": 23,
-      "name": "Project23 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      "mainData": {
-        "author": "Author of project23.",
-        "date": "Date of project23.",
-        "webAddress": "Web address of project23."
-      },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
-      "images": [
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        }
-      ],
-      "coll": false,
-      "year": 2023,
-      "fruition": [
-        1
-      ],
-      "cont": [
-        0,
-        2,
-        4
-      ],
-      "arg": [
-        0,
-        1,
-        2,
-        3,
-        4
+        5
       ]
     },
     "project24": {
       "id": 24,
-      "name": "Project24 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "CrowdHeritage",
+      "desc": "CrowdHeritage rappresenta un'importante iniziativa volta a coinvolgere la comunità online nel processo di raccolta, arricchimento e conservazione del ricco patrimonio culturale digitale. Il suo scopo principale è quello di offrire una piattaforma collaborativa dove gli individui possono partecipare attivamente alle campagne presenti contribuendo con foto storiche, documenti, registrazioni audio e video per preservare e valorizzare la cultura digitale.\nL'obiettivo fondamentale di CrowdHeritage è rendere accessibile e fruibile questo patrimonio culturale digitale per scopi educativi e di ricerca. La piattaforma si propone di essere una risorsa accessibile e ricca di contenuti culturali che possano essere utilizzati per l'istruzione, la ricerca e l'apprendimento, fornendo così un ampio spettro di risorse culturali a una vasta audience.\nUn altro elemento centrale dell'iniziativa è la promozione della collaborazione globale e della partecipazione pubblica nella preservazione e valorizzazione del patrimonio culturale digitale. CrowdHeritage cerca di coinvolgere attivamente persone provenienti da diverse parti del mondo, incoraggiandole a condividere le proprie conoscenze, esperienze e risorse culturali, contribuendo così a una rappresentazione più inclusiva e completa del patrimonio culturale digitale mondiale.",
       "mainData": {
-        "author": "Author of project24.",
-        "date": "Date of project24.",
-        "webAddress": "Web address of project24."
+        "author": "National Technical University of Athens, EU Commission.",
+        "webAddress": "https://crowdheritage.eu/en"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/CrowdHeritage/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CrowdHeritage/unnamed.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CrowdHeritage/unnamed1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CrowdHeritage/unnamed2.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/CrowdHeritage/unnamed3.png"
         }
       ],
-      "coll": false,
-      "year": 2024,
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": true,
+      "year": 2012,
       "fruition": [
-        1
+        1,
+        2
       ],
       "cont": [
-        0,
-        2,
-        4
+        1,
+        3,
+        4,
+        5
       ],
       "arg": [
         0,
         1,
         2,
-        3,
-        4
+        5
       ]
     },
     "project25": {
       "id": 25,
-      "name": "Project25 name",
-      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "name": "People's Collection Wales",
+      "desc": "People's Collection Wales è una piattaforma online che si propone di raccogliere, preservare e condividere la storia e la cultura del Galles attraverso la collaborazione della comunità. Fondata su principi di partecipazione e condivisione, questa piattaforma offre al pubblico la possibilità di esplorare e contribuire alla documentazione e alla conservazione del patrimonio culturale gallese.\nAttraverso People's Collection Wales, le persone possono contribuire con materiali, storie, fotografie, documenti e altri oggetti di interesse storico o culturale relativi al Galles. Questi contributi possono riguardare una vasta gamma di argomenti, tra cui tradizioni locali, storia, arte, musica, cultura popolare, eventi storici e altro ancora, offrendo una panoramica completa della ricchezza culturale del Galles.\nLa piattaforma permette agli utenti di esplorare le collezioni, contribuire con i propri materiali e condividere conoscenze, arricchendo così il patrimonio culturale digitale del Galles. Oltre alla raccolta di contributi, People's Collection Wales fornisce una piattaforma interattiva per la narrazione delle storie legate al patrimonio culturale gallese, incoraggiando la partecipazione attiva degli utenti.",
       "mainData": {
-        "author": "Author of project25.",
-        "date": "Date of project25.",
-        "webAddress": "Web address of project25."
+        "author": "National Library of Wales (NLW) e BBC Cymru Wales.",
+        "webAddress": "https://www.peoplescollection.wales/"
       },
-      "mainImagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg",
+      "mainImagePath": "/images/projects/People'sCollectionWales/home.png",
       "images": [
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/People'sCollectionWales/unnamed.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/People'sCollectionWales/unnamed1.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/People'sCollectionWales/unnamed2.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/People'sCollectionWales/unnamed3.png"
         },
         {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
-        },
-        {
-          "imagePath": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"
+          "imagePath": "/images/projects/People'sCollectionWales/unnamed4.png"
         }
       ],
-      "coll": false,
-      "year": 2025,
+      "objectFit": "fill",
+      "width": "330px",
+      "coll": true,
+      "year": 2008,
       "fruition": [
         1
       ],
       "cont": [
-        0,
-        2,
-        4
+        1,
+        3,
+        4,
+        5
       ],
       "arg": [
         0,
         1,
         2,
         3,
-        4
+        4,
+        5
       ]
     }
   }

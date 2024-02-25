@@ -17,9 +17,9 @@ export default function ProposeLayout( {children}:{children: React.ReactNode} )
         <html lang="it">
             <body className="bg-white">
             <Header
-                viewSearchBar={true}
-                progettiEnabled={false}
-                contribuisciEnabled={true}
+                viewSearchBar={false}
+                progettiEnabled={true}
+                contribuisciEnabled={false}
                 aboutEnabled={true}
             />
                 {children}

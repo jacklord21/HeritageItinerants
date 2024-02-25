@@ -145,6 +145,10 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                                     <input type="checkbox" onChange={(e) => FruitionFilter(2, e)}/>
                                     <label className="font-roboto font-regular text-voice">API</label>
                                 </div>
+                                <div className="filterMenuItem">
+                                    <input type="checkbox" onChange={(e) => FruitionFilter(3, e)}/>
+                                    <label className="font-roboto font-regular text-voice">Realtà virtuale</label>
+                                </div>
                             </div>
                     </div>
                     <div className={`filterOption ${contMenuVisible ? 'menuOpen' : ''}`}>
@@ -152,22 +156,26 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                             <div className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ContentFilter(0, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Fotografie</label>
+                                    <label className="font-roboto font-regular text-voice">Disegni</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ContentFilter(1, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Modelli 3D</label>
+                                    <label className="font-roboto font-regular text-voice">Fotografie</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ContentFilter(2, e)}/>
-                                    <label className="font-roboto font-regular text-voice">{"Opere d'arte"}</label>
+                                    <label className="font-roboto font-regular text-voice">Modelli 3D</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ContentFilter(3, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Registrazioni multimediali</label>
+                                    <label className="font-roboto font-regular text-voice">{"Opere d'arte"}</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ContentFilter(4, e)}/>
+                                    <label className="font-roboto font-regular text-voice">Registrazioni multimediali</label>
+                                </div>
+                                <div className="filterMenuItem">
+                                    <input type="checkbox" onChange={(e) => ContentFilter(5, e)}/>
                                     <label className="font-roboto font-regular text-voice">Testi (libri/manoscritti)</label>
                                 </div>
                             </div>
@@ -177,22 +185,26 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                             <div className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ArgumentFilter(0, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Architettura</label>
+                                    <label className="font-roboto font-regular text-voice">Archeologia</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ArgumentFilter(1, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Arte</label>
+                                    <label className="font-roboto font-regular text-voice">Architettura</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ArgumentFilter(2, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Letteratura</label>
+                                    <label className="font-roboto font-regular text-voice">Arte</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ArgumentFilter(3, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Religione</label>
+                                    <label className="font-roboto font-regular text-voice">Letteratura</label>
                                 </div>
                                 <div className="filterMenuItem">
                                     <input type="checkbox" onChange={(e) => ArgumentFilter(4, e)}/>
+                                    <label className="font-roboto font-regular text-voice">Religione</label>
+                                </div>
+                                <div className="filterMenuItem">
+                                    <input type="checkbox" onChange={(e) => ArgumentFilter(5, e)}/>
                                     <label className="font-roboto font-regular text-voice">Storia</label>
                                 </div>
                             </div>

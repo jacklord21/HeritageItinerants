@@ -1,11 +1,15 @@
 .mainDetailContainer {
-    align-items: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
     justify-items: flex-start;
     display: grid;
     grid-template-rows: min-content auto;
-    padding: 80px 20px 32px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    padding: 0 20px 0;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 112px);
+    background-color: white;
 }
 
 .nomeProgetto {
@@ -16,24 +20,26 @@
     height: fit-content;
     line-height: 100%;
     letter-spacing: 0;
+    margin-left: -4px;
 }
 
 .progetti {
-    align-items: flex-start;
+    box-sizing: border-box;
+    float: top;
     display: grid;
     grid-template-columns: 51% auto;
     gap: 10px;
-    padding-top: 20px;
     width: 100%;
     height: 100%;
+    margin-top: 20px;
 }
 
 .progetti .left-side {
     align-items: flex-start;
-    align-self: stretch;
     display: grid;
     grid-template-rows: min-content auto;
-    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .progetti .progetto {
@@ -48,6 +54,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .campi {
@@ -80,46 +87,44 @@
 }
 
 .progetti .foto {
-    float: left;
     display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    height: available;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    height: 100%;
+    align-items: flex-start;
 }
 
 .mainImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    aspect-ratio: 2.3;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 2;
     transform-origin: bottom left;
 }
 
 .progetti .right-side {
     align-items: flex-start;
     display: grid;
-    grid-template-rows: 50% 50%;
-    grid-row-gap: 50px;
+    grid-template-rows: 52% auto;
     position: relative;
-    width: 100%; /* Modifica la larghezza per corrispondere alla colonna griglia genitore */
+    width: 100%;
     height: 100%;
+    max-height: 100%;
 }
 
 .image {
-    width: 300px;
     height: 186px;
 }
 
 .progetti .descrizione {
     align-items: flex-start;
     box-sizing: border-box;
+    align-self: stretch;
     display: grid;
     grid-template-rows: 10% auto;
-    grid-row-gap: 15px;
-    height: 100%;
+    gap: 10px;
     width: 100%;
 }
 
@@ -139,8 +144,7 @@
     line-height: 28px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     scrollbar-width: initial;
 }
 
@@ -168,7 +172,7 @@
     display: flex;
     gap: 20px;
     overflow: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
     scrollbar-width: initial;
     white-space: nowrap;
     width: 100%;

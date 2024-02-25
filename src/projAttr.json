@@ -1,5 +1,5 @@
 {
-  "fruition": ["App", "Sito Web", "API"],
-  "cont": ["Fotografie", "Modelli3D", "Opere d'arte", "Registrazioni multimediali", "Testi (libri/manoscritti)"],
-  "arg": ["Architettura", "Arte", "Letteratura", "Religione", "Storia"]
+  "fruition": ["App", "Sito Web", "API", "Virtual Reality"],
+  "cont": ["Disegni", "Fotografie", "Modelli3D", "Opere d'arte", "Registrazioni multimediali", "Testi (libri/manoscritti)"],
+  "arg": ["Archeologia","Architettura", "Arte", "Letteratura", "Religione", "Storia"]
 }

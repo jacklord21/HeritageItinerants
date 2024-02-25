@@ -1,0 +1,41 @@
+.mainSplashContainer {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px 151px 10px;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.splashText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.splashTitleText {
+    line-height: normal;
+    letter-spacing: -5px;
+}
+.splashDescText {
+    line-height: normal;
+    letter-spacing: 0;
+}
+
+
+
+ .button {
+    background-color: #000000;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+     padding: 20px 40px 20px;
+}
+.exploreText {
+    line-height: 134.8%;
+    letter-spacing: 0;
+}

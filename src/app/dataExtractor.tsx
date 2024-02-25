@@ -1,5 +1,6 @@
 import eventEmitter from '../Emitter';
 import data from "../projects.json";
+import {project} from "@react-native-community/cli-platform-ios/build/config/__fixtures__/projects";
 
 interface ExtractorComponentProps {
     jsonData: {},
@@ -28,7 +29,13 @@ class ExtractorComponent {
     public argReligFilterState = false;
     public argStoryFilterState = false;
 
+    public contDrawFilterState = false;
+
+    public fruitionVirtualFilterState = false;
+    public argArcheoFilterState = false;
+
     private yearsFilterState = [-1, -1];
+    private nameFilterState = "";
 
 
     private static sharedExtractor: ExtractorComponent;
@@ -71,6 +78,12 @@ class ExtractorComponent {
         this.filter();
     };
 
+    public filterByName = (name: string) => {
+        this.nameFilterState = name;
+
+        this.filter();
+    };
+
     public filterByFruition = (code: number) => {
 
         if(code==0)
@@ -79,6 +92,8 @@ class ExtractorComponent {
             this.fruitionWebFilterState = !this.fruitionWebFilterState;
         else if(code==2)
             this.fruitionAPIFilterState = !this.fruitionAPIFilterState;
+        else if(code==3)
+            this.fruitionVirtualFilterState = !this.fruitionVirtualFilterState;
 
 
         this.filter();
@@ -86,14 +101,16 @@ class ExtractorComponent {
 
     public filterByCont = (code: number) => {
         if(code==0)
-            this.contPhotoFilterState = !this.contPhotoFilterState;
+            this.contDrawFilterState = !this.contDrawFilterState;
         else if(code==1)
-            this.contModelsFilterState = !this.contModelsFilterState;
+            this.contPhotoFilterState = !this.contPhotoFilterState;
         else if(code==2)
-            this.contArtFilterState = !this.contArtFilterState;
+            this.contModelsFilterState = !this.contModelsFilterState;
         else if(code==3)
-            this.contRegFilterState = !this.contRegFilterState;
+            this.contArtFilterState = !this.contArtFilterState;
         else if(code==4)
+            this.contRegFilterState = !this.contRegFilterState;
+        else if(code==5)
             this.contTextFilterState = !this.contTextFilterState;
 
         this.filter();
@@ -101,14 +118,16 @@ class ExtractorComponent {
 
     public filterByArg = (code: number) => {
         if(code==0)
-            this.argArchFilterState = !this.argArchFilterState;
+            this.argArcheoFilterState = !this.argArcheoFilterState;
         else if(code==1)
-            this.argArtFilterState = !this.argArtFilterState;
+            this.argArchFilterState = !this.argArchFilterState;
         else if(code==2)
-            this.argLettFilterState = !this.argLettFilterState;
+            this.argArtFilterState = !this.argArtFilterState;
         else if(code==3)
-            this.argReligFilterState = !this.argReligFilterState;
+            this.argLettFilterState = !this.argLettFilterState;
         else if(code==4)
+            this.argReligFilterState = !this.argReligFilterState;
+        else if(code==5)
             this.argStoryFilterState = !this.argStoryFilterState;
 
         this.filter();
@@ -139,7 +158,6 @@ class ExtractorComponent {
                 project.fruition.includes(0)
             );
         }
-
         if(this.fruitionWebFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.fruition.includes(1)
@@ -150,56 +168,77 @@ class ExtractorComponent {
                 project.fruition.includes(2)
             );
         }
+        if(this.fruitionVirtualFilterState) {
+            proj = Object.values(proj).filter((project: any) =>
+                project.fruition.includes(3)
+            );
+        }
 
-        if(this.contPhotoFilterState) {
+        if(this.contDrawFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.cont.includes(0)
             );
         }
-        if(this.contModelsFilterState) {
+        if(this.contPhotoFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.cont.includes(1)
             );
         }
-        if(this.contArtFilterState) {
+        if(this.contModelsFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.cont.includes(2)
             );
         }
-        if(this.contRegFilterState) {
+        if(this.contArtFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.cont.includes(3)
             );
         }
-        if(this.contTextFilterState) {
+        if(this.contRegFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.cont.includes(4)
             );
         }
+        if(this.contTextFilterState) {
+            proj = Object.values(proj).filter((project: any) =>
+                project.cont.includes(5)
+            );
+        }
 
-        if(this.argArchFilterState) {
+        if(this.argArcheoFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.arg.includes(0)
             );
         }
-        if(this.argArtFilterState) {
+        if(this.argArchFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.arg.includes(1)
             );
         }
-        if(this.argLettFilterState) {
+        if(this.argArtFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.arg.includes(2)
             );
         }
-        if(this.argReligFilterState) {
+        if(this.argLettFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.arg.includes(3)
             );
         }
-        if(this.argStoryFilterState) {
+        if(this.argReligFilterState) {
             proj = Object.values(proj).filter((project: any) =>
                 project.arg.includes(4)
+            );
+        }
+        if(this.argStoryFilterState) {
+            proj = Object.values(proj).filter((project: any) =>
+                project.arg.includes(5)
+            );
+        }
+
+        if(this.nameFilterState.length !== 0) {
+            proj = Object.values(proj).filter((project: any) =>
+                project.name.toLowerCase().includes(this.nameFilterState.toLowerCase())
             );
         }
 
@@ -219,6 +258,7 @@ class ExtractorComponent {
         this.fruitionAppFilterState = false;
         this.fruitionWebFilterState = false;
         this.fruitionAPIFilterState = false;
+        this.fruitionVirtualFilterState = false;
         this.contPhotoFilterState = false;
         this.contModelsFilterState = false;
         this.contArtFilterState = false;
@@ -230,6 +270,9 @@ class ExtractorComponent {
         this.argReligFilterState = false;
         this.argStoryFilterState = false;
         this.yearsFilterState = [-1, -1];
+        this.nameFilterState = "";
+        this.argArcheoFilterState = false;
+        this.contDrawFilterState = false;
         eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
     };
 }

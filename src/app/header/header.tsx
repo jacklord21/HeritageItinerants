@@ -2,14 +2,12 @@ import React from "react";
 import './header.css'
 import Link from "next/link"
 import SearchBar from "@/components/searchbar/searchbar";
-import {redirect} from "next/navigation";
 
 interface HeaderProps {
     viewSearchBar: boolean;
     progettiEnabled: boolean;
     contribuisciEnabled: boolean;
     aboutEnabled: boolean;
-    //   onClickFunc: () => void;
 }
 
 
@@ -18,22 +16,22 @@ const Header: React.FC<HeaderProps> = ({viewSearchBar, progettiEnabled, contribu
     return (
             <div className="mainContainer">
                 <div className="leftContainer">
-                    <p className="font-mont font-bold text-title text-black"><Link href="/" passHref>HERITAGE ITINERANTS</Link></p>
+                    <p className="font-mont font-bold text-title text-black"><Link href="/explore/ring" passHref>HERITAGE ITINERANTS</Link></p>
                     <div className="leftContainerLinks">
                         <p className="font-roboto font-regular text-voice text-black">
-                            {progettiEnabled ? <Link href="../explore/ring"> Progetti </Link> : "Progetti"}
+                            {progettiEnabled ? <Link href="/explore/ring"> Progetti </Link> : "Progetti"}
                         </p>
                         <p className="font-roboto font-regular text-voice text-black">
-                            {contribuisciEnabled ? <Link href="../propose"> Contribuisci al progetto </Link> : "Contribuisci al progetto"}
+                            {contribuisciEnabled ? <Link href="/propose"> Contribuisci al progetto </Link> : "Contribuisci al progetto"}
                         </p>
                         <p className="font-roboto font-regular text-voice text-black">
-                            {aboutEnabled ? <Link href="../about"> About Us </Link> : "About Us"}
+                            {aboutEnabled ? <Link href="/about"> About Us </Link> : "About Us"}
                         </p>
                     </div>
                 </div>
                 <div className="rightContainer">
                     {viewSearchBar && <SearchBar/>}
-                    <button>
+                    <button style={{height: "100%", maxHeight: "40px", maxWidth: "20px"}}>
                         <img src="/images/person.svg"/>
                     </button>
                 </div>
