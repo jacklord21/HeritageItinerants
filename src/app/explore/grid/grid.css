@@ -1,14 +1,105 @@
+.mainGridContainer {
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    margin-top: 100px;
+    margin-left: 20px;
+    grid-template-rows: min-content auto;
+    grid-row-gap: 40px;
+    height: calc(100% - 250px);
+    width: calc(100% - 40px);
+}
+
+.dropdown {
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto min-content;
+    grid-column-gap: 10px;
+}
+
+.textOrdina {
+    width: fit-content;
+    height: fit-content;
+}
+
 .gridCompContainer {
     align-self: center;
     display: grid;
     grid-template-columns: repeat(5, 1fr);  /* Cambiato da 4 a 5 */
     grid-row-gap: 30px;
     grid-column-gap: 57px;
-    margin-top: 100px;
-    margin-left: 20px;
-    width: calc(100% - 40px);
-    height: calc(100% - 250px);
     overflow: hidden;
     overflow-y: auto;
     scrollbar-width: initial;
+    width: 100%;
+    height: 100%;
+}
+
+.frame {
+    border: 1px solid #000;
+    align-items: center;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: min-content auto;
+    gap: 44px;
+    padding: 5px 10px 5px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.frame .headline-wrapper {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    padding: 0 10px 0;
+}
+
+.frame .headline {
+    color: #2e2e2e;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.frame .gridImage {
+    float: right;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    align-self: center;
+    width: min-content;
+    height: 24px;
+}
+
+.frame .gridImage:hover {
+    cursor: pointer;
+}
+
+
+.orderMenu {
+    border: 1px solid #CCD1D2;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 166px;
+    border-radius: 8px;
+    z-index: 2;
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.orderMenuItem {
+    align-items: center;
+    height: fit-content;
+    padding: 5px 20px 5px;
+    background-color: salmon;
+}
+.orderMenuItem:hover {
+    cursor: pointer;
 }

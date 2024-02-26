@@ -37,6 +37,9 @@ class ExtractorComponent {
     private yearsFilterState = [-1, -1];
     private nameFilterState = "";
 
+    private orderFunc: (a?: any, b?: any)=>number = () => {return -1000};
+    private orderFuncEnabled = false;
+
 
     private static sharedExtractor: ExtractorComponent;
     private jsonData = {
@@ -62,7 +65,19 @@ class ExtractorComponent {
         return ExtractorComponent.sharedExtractor;
     }
 
+
+    public orderBy(func: (a: any, b: any)=>number) {
+        this.orderFuncEnabled = true;
+        this.orderFunc = func;
+    //    this.jsonDataFiltered.projects = Object.values(this.jsonDataFiltered.projects).slice().sort(this.orderFunc);
+        this.filter();
+        console.log("ORDINA BY: " + this.orderFunc);
+    //    eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
+    }
+
+
     public filterByCollaborative = (value: boolean) => {
+        console.log("FILTER BY COLLABORATIVE: " + value);
         if(value) this.collYesFilterState = !this.collYesFilterState;
         else this.collNoFilterState = !this.collNoFilterState;
 
@@ -242,6 +257,11 @@ class ExtractorComponent {
             );
         }
 
+        console.log("orderFUNCENABLED: " + this.orderFuncEnabled);
+        if(this.orderFuncEnabled) {
+            proj = Object.values(proj).slice().sort(this.orderFunc);
+        }
+
 
         this.jsonDataFiltered.projects = proj;
         eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
@@ -273,6 +293,7 @@ class ExtractorComponent {
         this.nameFilterState = "";
         this.argArcheoFilterState = false;
         this.contDrawFilterState = false;
+        this.orderFuncEnabled = false;
         eventEmitter.emit('listaCambiata', this.jsonDataFiltered.projects);
     };
 }

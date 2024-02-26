@@ -32,6 +32,7 @@ ul {
     display: list-item;
  }
 li {
+    line-height: 140.6%;
     margin-left: 40px;
     font-family: "Roboto-Regular", serif;
     font-size: 18px;

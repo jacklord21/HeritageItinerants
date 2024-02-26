@@ -21,7 +21,7 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                     <div className="left-side">
                         <div className="detail">
                             <div className="campi">
-                                <div className="frame">
+                                <div className="detailFrame">
                                     <div className="text-wrapper-detail font-mont font-medium text-25 text-black">Autore:</div>
                                     <div className="text-wrapper-detail font-mont font-medium text-25 text-black">Data di creazione:</div>
                                     <div className="text-wrapper-detail font-mont font-medium text-25 text-black">Indirizzo sito web:</div>

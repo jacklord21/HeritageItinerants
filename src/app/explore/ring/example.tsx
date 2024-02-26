@@ -24,6 +24,7 @@ const Example = () => {
 
         eventEmitter.on('listaCambiata', handleListaCambiata);
         eventEmitter.emit("searchViewStateChanged", true);
+        ExtractorComponent.getInstance().resetDati();
 
         return () => {
             eventEmitter.off('listaCambiata', handleListaCambiata);
