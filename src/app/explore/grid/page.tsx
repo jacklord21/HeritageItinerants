@@ -135,11 +135,15 @@ export default function Grid() {
                     </div>
                 </div>
             </div>
+            {slides.length==0 ?
+                <div style={{backgroundColor: "white", justifyContent: "center", alignContent: "center", display: "grid", placeItems: "center", height: "100%"}}>
+                    <div className="text font-roboto font-semibold text-21 text-black">Nessun progetto disponibile secondo i criteri di ricerca inseriti.</div>
+                </div> :
             <div className="gridCompContainer">
                 {slides.map((item, index) => (
                     <div key={index}>{item.content}</div>
                 ))}
-            </div>
+            </div>}
             <Footer gridClickEnabled={false} ringClickEnabled={true} />
         </div>
     );

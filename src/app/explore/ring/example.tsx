@@ -116,12 +116,17 @@ const Example = () => {
             onWheel={handleWheel}
        //     onMouseDown={handleMouseDown}
         >
+            {slides.length==0 ?
+
+            <div style={{backgroundColor: "white", justifyContent: "center", alignContent: "center", display: "grid", placeItems: "center", height: "100%"}}>
+                <div className="text font-roboto font-semibold text-21 text-black">Nessun progetto disponibile secondo i criteri di ricerca inseriti.</div>
+            </div> :
             <Carousel
                 slides={slides}
                 goToSlide={goToSlide}
                 offsetRadius={offsetRadius}
                 showNavigation={false}
-            />
+            />}
         </div>
     );
 };
