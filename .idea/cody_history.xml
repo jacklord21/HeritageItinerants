@@ -99,6 +99,14 @@
           <accountId value="VXNlcjozMDYwODU=" />
           <internalId value="c11ab82d-d1c3-4029-b2cf-e302edbfb3c7" />
         </chat>
+        <chat>
+          <accountId value="VXNlcjozMDYwODU=" />
+          <internalId value="23850de2-b059-4204-ba01-eb0557760f27" />
+        </chat>
+        <chat>
+          <accountId value="VXNlcjozMDYwODU=" />
+          <internalId value="cfcea593-fca3-4ff5-8e1b-c93a3cebd84e" />
+        </chat>
       </list>
     </chats>
   </component>

@@ -5,8 +5,11 @@ import './splash.css';
 import {router} from "next/client";
 import Link from "next/link";
 import {Canvas} from "react-three-fiber";
+import ExtractorComponent from "@/app/dataExtractor";
 
 export default async function App() {
+
+    ExtractorComponent.getInstance();
     return (
         <div className="mainSplashContainer">
 

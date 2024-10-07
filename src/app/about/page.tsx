@@ -26,6 +26,7 @@ export default function Page() {
                         <li>tipologia di contenuto disponibile (come immagini, sculture, dipinti)</li>
                         <li>argomenti su cui il progetto si concentra (come arte, storia, architettura)</li>
                     </ul>
+                <br/>Copyright © 2024 Giacomo Matteucci. All rights reserved.
                 </p>
             </div>
         </div>

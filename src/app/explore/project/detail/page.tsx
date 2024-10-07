@@ -30,7 +30,9 @@ export default function DetailPage ({ searchParams }: { searchParams: any }) {
                                 <div className="frame-2">
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.author}</div>
                                     <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.year}</div>
-                                    <div className="text-wrapper-detail-2 font-roboto font-regular text-19 text-black">{data.mainData.webAddress}</div>
+                                    <a href={data.mainData.webAddress} target="_blank" className="text-wrapper-detail-2">
+                                        <div className=" font-roboto font-regular text-19 text-black">{data.mainData.webAddress}</div>
+                                    </a>
                                     <div className="fruition">
                                         {data.fruition.map((mod: any, index: number) => (
                                             <div key={index} className="API">

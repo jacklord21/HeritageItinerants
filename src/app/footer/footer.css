@@ -68,6 +68,7 @@
     padding: 0 5px 0;
     user-select: none;
     width: fit-content;
+    background-color: #fff;
 }
 .filterOption:hover {
 }

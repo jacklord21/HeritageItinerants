@@ -6,6 +6,7 @@ import Link from "next/link";
 import MultiRangeSlider from "@/components/MultiRangeSlider/MultiRangeSlider";
 import ExtractorComponent from "@/app/dataExtractor";
 import eventEmitter from "@/Emitter";
+import {existsTypeAnnotation} from "@babel/types";
 
 
 interface FooterProps {
@@ -23,7 +24,25 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
     const [fruiMenuVisible, setFruiMenuVisible] = useState(false);
     const [contMenuVisible, setContMenuVisible] = useState(false);
     const [argMenuVisible, setArgMenuVisible] = useState(false);
-    const handleCollClick = () => {
+    const handleCollClick = (e: any) => {
+       /* const parentElement = e.currentTarget.closest(".filterOption");
+
+        console.log("id: " + parentElement.id);
+        console.log("backColor: " + window.getComputedStyle(parentElement).backgroundColor);
+
+        const newState = !collMenuVisible;
+        if(!newState) {
+            let check = 0;
+            e.target.parentNode.querySelectorAll("input[type='checkbox']").forEach((checkbox: any) => {
+                if(checkbox.checked) {
+                    e.target.parentNode.style.backgroundColor = "#CCD1D2";
+                    check = 1;
+                }
+            });
+          //  if (check!==1)
+          //      e.target.parentNode.style.backgroundColor = "#fff";
+        }
+        console.log("newState: " + newState);*/
         setCollMenuVisible(!collMenuVisible);
         setDateMenuVisible(false);
         setFruiMenuVisible(false);
@@ -104,9 +123,9 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                     <text className="font-mont font-bold uppercase">Filtra per</text>
                 </div>
                 <div className="footerLeftPartContentContainer">
-                    <div className={`filterOption ${collMenuVisible ? 'menuOpen' : ''}`}>
+                    <div id="helll" className={`filterOption ${collMenuVisible ? 'menuOpen' : ''}`}>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleCollClick}>Collaborativo</div>
-                            <div className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`}>
+                        <div className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                                 <div className="filterMenuItem">
                                     <input disabled={checkbox2Checked} type="checkbox" onChange={(e) => YesCollaborativeFilter(e)}/>
                                     <label className="font-roboto font-regular text-voice" >Sì</label>
@@ -116,7 +135,6 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                                     <label className="font-roboto font-regular text-voice">No</label>
                                 </div>
                             </div>
-
                     </div>
                     <div className={`filterOption ${dateMenuVisible ? 'menuOpen' : ''}`}>
                         <div className="filterVoice font-roboto font-regular text-voice" onClick={handleDateClick}>Anno di creazione</div>

@@ -220,6 +220,7 @@
     bottom: 0;
     letter-spacing: 0;
     line-height: 28px;
+    width: fit-content;
 }
 
 .fruition {
