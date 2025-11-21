@@ -1,6 +1,5 @@
 import React from 'react';
 import './itemDiv.css';
-import {ScrollView} from "react-native";
 
 interface itemDivProps {
     imageUrl: string

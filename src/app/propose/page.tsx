@@ -2,10 +2,7 @@
 
 import './propose.css'
 import React from "react";
-import Link from "next/link";
 import {useRouter} from "next/navigation";
-
-
 
 export default function Propose() {
     const router = useRouter();

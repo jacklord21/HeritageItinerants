@@ -9,21 +9,20 @@ interface ButtonProps {
     padding?: string;
     text?: string;
     width?: string;
- //   onClickFunc: () => void;
 }
 
 
-const Button: React.FC<ButtonProps> = ({//onClickFunc,
-                                           backgroundColor,
-                                           borderRadius,
-                                           fontSize,
-                                           height,
-                                           imageUrl,
-                                           padding,
-                                           text,
-                                           width,
-                                           }) => {
-   return (
+const Button: React.FC<ButtonProps> = ({
+    backgroundColor,
+    borderRadius,
+    fontSize,
+    height,
+    imageUrl,
+    padding,
+    text,
+    width,
+}) => {
+    return (
         <button
             type="submit"
             className="text-white"

@@ -1,12 +1,10 @@
 "use client";
 
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import './footer.css'
 import Link from "next/link";
 import MultiRangeSlider from "@/components/MultiRangeSlider/MultiRangeSlider";
 import ExtractorComponent from "@/app/dataExtractor";
-import eventEmitter from "@/Emitter";
-import {existsTypeAnnotation} from "@babel/types";
 
 
 interface FooterProps {
@@ -25,24 +23,6 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
     const [contMenuVisible, setContMenuVisible] = useState(false);
     const [argMenuVisible, setArgMenuVisible] = useState(false);
     const handleCollClick = (e: any) => {
-       /* const parentElement = e.currentTarget.closest(".filterOption");
-
-        console.log("id: " + parentElement.id);
-        console.log("backColor: " + window.getComputedStyle(parentElement).backgroundColor);
-
-        const newState = !collMenuVisible;
-        if(!newState) {
-            let check = 0;
-            e.target.parentNode.querySelectorAll("input[type='checkbox']").forEach((checkbox: any) => {
-                if(checkbox.checked) {
-                    e.target.parentNode.style.backgroundColor = "#CCD1D2";
-                    check = 1;
-                }
-            });
-          //  if (check!==1)
-          //      e.target.parentNode.style.backgroundColor = "#fff";
-        }
-        console.log("newState: " + newState);*/
         setCollMenuVisible(!collMenuVisible);
         setDateMenuVisible(false);
         setFruiMenuVisible(false);

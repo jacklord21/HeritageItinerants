@@ -10,8 +10,6 @@ interface HeaderProps {
     aboutEnabled: boolean;
 }
 
-
-
 const Header: React.FC<HeaderProps> = ({viewSearchBar, progettiEnabled, contribuisciEnabled, aboutEnabled}) => {
     return (
             <div className="mainContainer">
