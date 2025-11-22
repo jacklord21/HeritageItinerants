@@ -1,0 +1,11 @@
+.fmiMainContainer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-column-gap: 16px;
+    padding: 4px 24px 4px 16px;
+    height: fit-content;
+    width: 100%;
+    justify-items: start;
+    text-align: left;
+}

@@ -1,0 +1,15 @@
+.fmMainContainer {
+    background-color: white;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    border: 1px solid #CCD1D2;
+    border-radius: 5px 5px 0 0;
+}
+
+.fmMenuClose {
+    display: none;
+}
