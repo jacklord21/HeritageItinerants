@@ -56,11 +56,15 @@ const MultiRangeSlider = ({ min, max, onChange }: { min: number; max: number; on
                         max={max}
                         value={minVal}
                         onChange={(event) => {
+                            event.stopPropagation();
                             const value = Math.min(Number(event.target.value), maxVal - 1);
                             setMinVal(value);
                             minValRef.current = value;
                             extractor.filterByYear(value, maxVal);
                         }}
+                        onMouseDown={(e) => e.stopPropagation()}
+                        onPointerDown={(e) => (e as React.PointerEvent<HTMLInputElement>).stopPropagation()}
+                        onClick={(e) => (e as React.MouseEvent<HTMLInputElement>).stopPropagation()}
                         className="thumb thumb--left"
                         style={{ zIndex: minVal > max - 100 ? 5 : undefined }}
                     />
@@ -70,11 +74,15 @@ const MultiRangeSlider = ({ min, max, onChange }: { min: number; max: number; on
                         max={max}
                         value={maxVal}
                         onChange={(event) => {
+                            event.stopPropagation();
                             const value = Math.max(Number(event.target.value), minVal + 1);
                             setMaxVal(value);
                             maxValRef.current = value;
                             extractor.filterByYear(minVal, value);
                         }}
+                        onMouseDown={(e) => e.stopPropagation()}
+                        onPointerDown={(e) => (e as React.PointerEvent<HTMLInputElement>).stopPropagation()}
+                        onClick={(e) => (e as React.MouseEvent<HTMLInputElement>).stopPropagation()}
                         className="thumb thumb--right"
                     />
 

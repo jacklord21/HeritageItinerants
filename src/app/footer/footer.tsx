@@ -27,6 +27,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
     const [contMenuVisible, setContMenuVisible] = useState(false);
     const [argMenuVisible, setArgMenuVisible] = useState(false);
     const handleCollClick = (e: any) => {
+        console.log('handleCollClick fired. collMenuVisible=', collMenuVisible);
         setCollMenuVisible(!collMenuVisible);
         setDateMenuVisible(false);
         setFruiMenuVisible(false);
@@ -34,6 +35,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
         setArgMenuVisible(false);
     };
     const handleDateClick = () => {
+        console.log('handleDateClick fired. dateMenuVisible=', dateMenuVisible);
         setDateMenuVisible(!dateMenuVisible);
         setCollMenuVisible(false);
         setFruiMenuVisible(false);
@@ -41,6 +43,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
         setArgMenuVisible(false);
     };
     const handleFruiClick = () => {
+        console.log('handleFruiClick fired. fruiMenuVisible=', fruiMenuVisible);
         setFruiMenuVisible(!fruiMenuVisible);
         setCollMenuVisible(false);
         setDateMenuVisible(false);
@@ -48,6 +51,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
         setArgMenuVisible(false);
     };
     const handleContClick = () => {
+        console.log('handleContClick fired. contMenuVisible=', contMenuVisible);
         setContMenuVisible(!contMenuVisible);
         setCollMenuVisible(false);
         setDateMenuVisible(false);
@@ -55,6 +59,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
         setArgMenuVisible(false);
     };
     const handleArgClick = () => {
+        console.log('handleArgClick fired. argMenuVisible=', argMenuVisible);
         setArgMenuVisible(!argMenuVisible);
         setCollMenuVisible(false);
         setDateMenuVisible(false);
@@ -108,7 +113,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                 </div>
                 <div className="footerLeftPartContentContainer">
                     <Button className={`filterOption ${collMenuVisible ? 'menuOpen' : ''}`} onClick={handleCollClick} text="Collaborativo">
-                        <FilterMenu className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={collMenuVisible} onRequestClose={() => setCollMenuVisible(false)}>
+                        <FilterMenu className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`} >
                             <FilterMenuItem className="filterMenuItem">
                                 <CheckboxWithText text="Sì" disabled={checkbox2Checked} onChange={(e) => YesCollaborativeFilter(e)} />
                             </FilterMenuItem >
@@ -131,7 +136,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                     </Button>
 
                     <Button className={`filterOption ${fruiMenuVisible ? 'menuOpen' : ''}`} onClick={handleFruiClick} text="Modalità di fruizione">
-                        <FilterMenu className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={fruiMenuVisible} onRequestClose={() => setFruiMenuVisible(false)}>
+                        <FilterMenu className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                             <FilterMenuItem className="filterMenuItem">
                                 <CheckboxWithText text="App" onChange={(e) => FruitionFilter(0, e)} />
                             </FilterMenuItem>
@@ -148,7 +153,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                     </Button>
 
                     <Button className={`filterOption ${contMenuVisible ? 'menuOpen' : ''}`} onClick={handleContClick} text="Contenuto">
-                        <FilterMenu className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={contMenuVisible} onRequestClose={() => setContMenuVisible(false)}>
+                        <FilterMenu className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                             <FilterMenuItem className="filterMenuItem">
                                 <CheckboxWithText text="Disegni" onChange={(e) => ContentFilter(0, e)} />
                             </FilterMenuItem>
@@ -171,7 +176,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                     </Button>
 
                     <Button className={`filterOption ${argMenuVisible ? 'menuOpen' : ''}`} onClick={handleArgClick} text="Argomento">
-                        <FilterMenu className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={argMenuVisible} onRequestClose={() => setArgMenuVisible(false)}>
+                        <FilterMenu className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                             <FilterMenuItem className="filterMenuItem">
                                 <CheckboxWithText text="Archeologia" onChange={(e) => ArgumentFilter(0, e)} />
                             </FilterMenuItem>

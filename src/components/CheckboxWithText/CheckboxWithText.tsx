@@ -14,9 +14,18 @@ const CheckboxWithText: React.FC<CheckboxWithTextProps> = ({
     disabled = false,
     onChange,
 }) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        e.stopPropagation();
+        onChange(e);
+    }
+
+    const stopClickPropagation = (e: React.MouseEvent) => {
+        e.stopPropagation();
+    }
+
     return (
-        <div className="cbtMainContainer">
-            <input type="checkbox" disabled={disabled} onChange={onChange} />
+        <div className="cbtMainContainer" onClick={stopClickPropagation}>
+            <input type="checkbox" disabled={disabled} onChange={handleChange} onClick={stopClickPropagation} />
             <label className="font-roboto font-regular text-voice">{text}</label>
         </div>
     );

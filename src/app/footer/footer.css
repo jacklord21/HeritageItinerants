@@ -72,6 +72,11 @@
     background-color: #fff;
 }
 
+.filterOptionWrapper {
+    position: relative; /* anchor absolute menu positioning */
+    display: inline-block;
+}
+
 .menuOpen {
     background-color: #CCD1D2;
 }
