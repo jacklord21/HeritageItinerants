@@ -1,5 +1,10 @@
+"use client";
+
 import React, { useState, useEffect } from "react";
-import Carousel from "react-spring-3d-carousel";
+import dynamic from 'next/dynamic';
+// carousel is browser-only (references `self`/window) — load it client-side only
+// Cast the dynamic loader to `any` to avoid TypeScript prop-type incompatibilities
+const Carousel = dynamic<any>(() => import('react-spring-3d-carousel') as Promise<any>, { ssr: false });
 import { uuid } from 'uuidv4';
 import ItemDiv from "@/app/itemDiv/itemDiv";
 import Link from "next/link";
