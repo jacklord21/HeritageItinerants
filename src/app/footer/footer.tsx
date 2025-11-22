@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import './footer.css'
 import Link from "next/link";
 import MultiRangeSlider from "@/components/MultiRangeSlider/MultiRangeSlider";
@@ -26,6 +26,22 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
     const [fruiMenuVisible, setFruiMenuVisible] = useState(false);
     const [contMenuVisible, setContMenuVisible] = useState(false);
     const [argMenuVisible, setArgMenuVisible] = useState(false);
+    const footerRef = useRef<HTMLDivElement | null>(null);
+
+    useEffect(() => {
+        const handleClickOutside = (e: MouseEvent) => {
+            if (footerRef.current && !footerRef.current.contains(e.target as Node)) {
+                setCollMenuVisible(false);
+                setDateMenuVisible(false);
+                setFruiMenuVisible(false);
+                setContMenuVisible(false);
+                setArgMenuVisible(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
     const handleCollClick = (e: any) => {
         console.log('handleCollClick fired. collMenuVisible=', collMenuVisible);
         setCollMenuVisible(!collMenuVisible);
@@ -106,7 +122,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
 
 
     return (
-        <div className="mainFooterContainer">
+        <div className="mainFooterContainer" ref={footerRef}>
             <div className="footerLeftPartContainer">
                 <div>
                     <text className="font-mont font-bold uppercase">Filtra per</text>
