@@ -1,10 +1,14 @@
 "use client";
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import './footer.css'
 import Link from "next/link";
 import MultiRangeSlider from "@/components/MultiRangeSlider/MultiRangeSlider";
 import ExtractorComponent from "@/app/dataExtractor";
+import Button from "@/components/button/button";
+import FilterMenuItem from "@/components/FilterMenuItem/FilterMenuItem";
+import FilterMenu from "@/components/FilterMenu/FilterMenu";
+import CheckboxWithText from "@/components/CheckboxWithText/CheckboxWithText";
 
 
 interface FooterProps {
@@ -14,7 +18,7 @@ interface FooterProps {
 
 
 
-const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: FooterProps) => {
+const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: FooterProps) => {
     const extractor = ExtractorComponent.getInstance();
 
     const [collMenuVisible, setCollMenuVisible] = useState(false);
@@ -62,7 +66,7 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
     const [checkbox1Checked, setCheckbox1Checked] = useState(false);
     const [checkbox2Checked, setCheckbox2Checked] = useState(false);
     const YesCollaborativeFilter = (e: any) => {
-        if(e.target.checked) {
+        if (e.target.checked) {
             setCheckbox1Checked(!checkbox1Checked);
             extractor.filterByCollaborative(true);
         }
@@ -72,7 +76,7 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
         }
     };
     const NoCollaborativeFilter = (e: any) => {
-        if(e.target.checked) {
+        if (e.target.checked) {
             setCheckbox2Checked(!checkbox2Checked);
             extractor.filterByCollaborative(false);
         }
@@ -82,15 +86,15 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
         }
     };
 
-    const FruitionFilter = (code :number, e: any) => {
+    const FruitionFilter = (code: number, e: any) => {
         extractor.filterByFruition(code);
     };
 
-    const ContentFilter = (code :number, e: any) => {
+    const ContentFilter = (code: number, e: any) => {
         extractor.filterByCont(code);
     };
 
-    const ArgumentFilter = (code :number, e: any) => {
+    const ArgumentFilter = (code: number, e: any) => {
         extractor.filterByArg(code);
     };
 
@@ -103,122 +107,103 @@ const Footer:  React.FC<FooterProps> = ({ringClickEnabled, gridClickEnabled}: Fo
                     <text className="font-mont font-bold uppercase">Filtra per</text>
                 </div>
                 <div className="footerLeftPartContentContainer">
-                    <div id="helll" className={`filterOption ${collMenuVisible ? 'menuOpen' : ''}`}>
-                        <div className="filterVoice font-roboto font-regular text-voice" onClick={handleCollClick}>Collaborativo</div>
-                        <div className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`}>
-                                <div className="filterMenuItem">
-                                    <input disabled={checkbox2Checked} type="checkbox" onChange={(e) => YesCollaborativeFilter(e)}/>
-                                    <label className="font-roboto font-regular text-voice" >Sì</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input disabled={checkbox1Checked} type="checkbox" onChange={(e) => NoCollaborativeFilter(e)}/>
-                                    <label className="font-roboto font-regular text-voice">No</label>
-                                </div>
-                            </div>
-                    </div>
-                    <div className={`filterOption ${dateMenuVisible ? 'menuOpen' : ''}`}>
-                        <div className="filterVoice font-roboto font-regular text-voice" onClick={handleDateClick}>Anno di creazione</div>
-                        <div className={` ${dateMenuVisible ? 'filterMenu' : 'menuClose'}`}>
-                                <div className="filterMenuItem">
-                                    <MultiRangeSlider
-                                        min={1900}
-                                        max={2025}
-                                        onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
-                                    />
-                                </div>
-                            </div>
-                    </div>
-                    <div className={`filterOption ${fruiMenuVisible ? 'menuOpen' : ''}`}>
-                        <div className="filterVoice font-roboto font-regular text-voice" onClick={handleFruiClick}>Modalità di fruizione</div>
-                            <div className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`}>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => FruitionFilter(0, e)}/>
-                                    <label className="font-roboto font-regular text-voice">App</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => FruitionFilter(1, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Sito web</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => FruitionFilter(2, e)}/>
-                                    <label className="font-roboto font-regular text-voice">API</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => FruitionFilter(3, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Realtà virtuale</label>
-                                </div>
-                            </div>
-                    </div>
-                    <div className={`filterOption ${contMenuVisible ? 'menuOpen' : ''}`}>
-                        <div className="filterVoice font-roboto font-regular text-voice" onClick={handleContClick}>Contenuto</div>
-                            <div className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`}>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(0, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Disegni</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(1, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Fotografie</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(2, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Modelli 3D</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(3, e)}/>
-                                    <label className="font-roboto font-regular text-voice">{"Opere d'arte"}</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(4, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Registrazioni multimediali</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ContentFilter(5, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Testi (libri/manoscritti)</label>
-                                </div>
-                            </div>
-                    </div>
-                    <div className={`filterOption ${argMenuVisible ? 'menuOpen' : ''}`}>
-                        <div className="filterVoice font-roboto font-regular text-voice" onClick={handleArgClick}>Argomento</div>
-                            <div className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`}>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(0, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Archeologia</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(1, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Architettura</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(2, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Arte</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(3, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Letteratura</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(4, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Religione</label>
-                                </div>
-                                <div className="filterMenuItem">
-                                    <input type="checkbox" onChange={(e) => ArgumentFilter(5, e)}/>
-                                    <label className="font-roboto font-regular text-voice">Storia</label>
-                                </div>
-                            </div>
-                    </div>
+                    <Button className={`filterOption ${collMenuVisible ? 'menuOpen' : ''}`} onClick={handleCollClick} text="Collaborativo">
+                        <FilterMenu className={` ${collMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={collMenuVisible} onRequestClose={() => setCollMenuVisible(false)}>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Sì" disabled={checkbox2Checked} onChange={(e) => YesCollaborativeFilter(e)} />
+                            </FilterMenuItem >
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="No" disabled={checkbox1Checked} onChange={(e) => NoCollaborativeFilter(e)} />
+                            </FilterMenuItem>
+                        </FilterMenu>
+                    </Button>
+
+                    {/* <Button className={`filterOption ${dateMenuVisible ? 'menuOpen' : ''}`} onClick={handleDateClick} text="Anno di creazione">
+                        <FilterMenu className={` ${dateMenuVisible ? 'filterMenu' : 'menuClose'}`}>
+                            <FilterMenuItem className="filterMenuSliderItem">
+                                <MultiRangeSlider
+                                    min={1900}
+                                    max={2025}
+                                    onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
+                                />
+                            </FilterMenuItem>
+                        </FilterMenu>
+                    </Button> */}
+
+                    <Button className={`filterOption ${fruiMenuVisible ? 'menuOpen' : ''}`} onClick={handleFruiClick} text="Modalità di fruizione">
+                        <FilterMenu className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={fruiMenuVisible} onRequestClose={() => setFruiMenuVisible(false)}>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="App" onChange={(e) => FruitionFilter(0, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Sito web" onChange={(e) => FruitionFilter(1, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="API" onChange={(e) => FruitionFilter(2, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Realtà virtuale" onChange={(e) => FruitionFilter(3, e)} />
+                            </FilterMenuItem>
+                        </FilterMenu>
+                    </Button>
+
+                    <Button className={`filterOption ${contMenuVisible ? 'menuOpen' : ''}`} onClick={handleContClick} text="Contenuto">
+                        <FilterMenu className={` ${contMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={contMenuVisible} onRequestClose={() => setContMenuVisible(false)}>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Disegni" onChange={(e) => ContentFilter(0, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Fotografie" onChange={(e) => ContentFilter(1, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Modelli 3D" onChange={(e) => ContentFilter(2, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Opere d'arte" onChange={(e) => ContentFilter(3, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Registrazioni multimediali" onChange={(e) => ContentFilter(4, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Testi (libri/manoscritti)" onChange={(e) => ContentFilter(5, e)} />
+                            </FilterMenuItem>
+                        </FilterMenu>
+                    </Button>
+
+                    <Button className={`filterOption ${argMenuVisible ? 'menuOpen' : ''}`} onClick={handleArgClick} text="Argomento">
+                        <FilterMenu className={` ${argMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={argMenuVisible} onRequestClose={() => setArgMenuVisible(false)}>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Archeologia" onChange={(e) => ArgumentFilter(0, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Architettura" onChange={(e) => ArgumentFilter(1, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Arte" onChange={(e) => ArgumentFilter(2, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Letteratura" onChange={(e) => ArgumentFilter(3, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Religione" onChange={(e) => ArgumentFilter(4, e)} />
+                            </FilterMenuItem>
+                            <FilterMenuItem className="filterMenuItem">
+                                <CheckboxWithText text="Storia" onChange={(e) => ArgumentFilter(5, e)} />
+                            </FilterMenuItem>
+                        </FilterMenu>
+                    </Button>
                 </div>
             </div>
 
-            <div className="verticalBar h-auto"/>
+            <div className="verticalBar h-auto" />
 
             <div className="footerLeftPartContainer footerRightPartContainer">
                 <div>
                     <text className="font-mont font-bold uppercase">Layout</text>
                 </div>
                 <div className="footerRightPartContentContainer">
-                    {ringClickEnabled ? <Link href="../explore/ring" onClick={() => extractor.resetDati()}> <img src="/images/ringIcon.svg"/> </Link> : <img src="/images/ringIcon.svg"/>}
-                    {gridClickEnabled ? <Link href="../explore/grid" onClick={() => extractor.resetDati()}> <img src="/images/gridIcon.svg"/> </Link> : <img src="/images/gridIcon.svg"/>}
+                    {ringClickEnabled ? <Link href="../explore/ring" onClick={() => extractor.resetDati()}> <img src="/images/ringIcon.svg" /> </Link> : <img src="/images/ringIcon.svg" />}
+                    {gridClickEnabled ? <Link href="../explore/grid" onClick={() => extractor.resetDati()}> <img src="/images/gridIcon.svg" /> </Link> : <img src="/images/gridIcon.svg" />}
                 </div>
             </div>
         </div>

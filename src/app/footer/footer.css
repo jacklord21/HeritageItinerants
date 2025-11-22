@@ -1,20 +1,20 @@
 .mainFooterContainer {
- /*   background-color: red;*/
-    bottom: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    left: 0;
-    min-height: 40px;
-    padding-bottom: 40px;
+    /* background-color: red; */
     position: fixed;
+    bottom: 0;
+    left: 0;
     right: 0;
-    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    min-height: auto;
+    width: auto;
 }
 
-
 .footerLeftPartContainer {
+    /* background-color: lightgreen; */
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -39,6 +39,7 @@
 }
 
 .footerRightPartContainer {
+    /* background-color: yellow; */
     align-items: center;
     gap: 10px;
 }
@@ -65,13 +66,12 @@
 .filterOption {
     position: relative;
     border-radius: 0 5px 5px 5px;
-    padding: 0 5px 0;
+    padding: 3px 4px;
     user-select: none;
     width: fit-content;
     background-color: #fff;
 }
-.filterOption:hover {
-}
+
 .menuOpen {
     background-color: #CCD1D2;
 }
@@ -84,24 +84,25 @@
 
 
 .filterMenu {
+    align-items: flex-start;
     background-color: white;
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    display: grid;
-    grid-template-columns: 1fr; /* Una colonna */
-    gap: 5px;
     border: 1px solid #CCD1D2;
     border-radius: 5px 5px 0 0;
+    bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    left: 0;
+    position: absolute;
 }
 
 .filterMenuItem {
     align-items: center;
-    display: grid; /* Utilizza un layout di griglia */
-    grid-template-columns: min-content auto; /* Una colonna */
-    grid-column-gap: 16px;
-    padding: 4px 24px 4px 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px 4px 10px;
     height: fit-content;
+    width: auto;
 }
 
 
@@ -109,6 +110,6 @@
     padding: 4px 24px 4px 16px;
     position: relative;
     height: fit-content;
-    width: 250px; /* Aggiunto */
-    min-width: 200px; /* Aggiunto */
+    width: 250px;
+    min-width: 200px;
 }
