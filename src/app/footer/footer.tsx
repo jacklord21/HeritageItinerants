@@ -118,7 +118,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                         </FilterMenu>
                     </Button>
 
-                    {/* <Button className={`filterOption ${dateMenuVisible ? 'menuOpen' : ''}`} onClick={handleDateClick} text="Anno di creazione">
+                    <Button className={`filterOption ${dateMenuVisible ? 'menuOpen' : ''}`} onClick={handleDateClick} text="Anno di creazione">
                         <FilterMenu className={` ${dateMenuVisible ? 'filterMenu' : 'menuClose'}`}>
                             <FilterMenuItem className="filterMenuSliderItem">
                                 <MultiRangeSlider
@@ -128,7 +128,7 @@ const Footer: React.FC<FooterProps> = ({ ringClickEnabled, gridClickEnabled }: F
                                 />
                             </FilterMenuItem>
                         </FilterMenu>
-                    </Button> */}
+                    </Button>
 
                     <Button className={`filterOption ${fruiMenuVisible ? 'menuOpen' : ''}`} onClick={handleFruiClick} text="Modalità di fruizione">
                         <FilterMenu className={` ${fruiMenuVisible ? 'filterMenu' : 'menuClose'}`} visible={fruiMenuVisible} onRequestClose={() => setFruiMenuVisible(false)}>
